@@ -14,8 +14,6 @@ header{
 
 nav{
     background-color: #2b948b83;
-
-
 }
 
 li, a{
@@ -46,44 +44,16 @@ h1{
 # Inicio
 --------------------------------------------------------------*/
 
-.main__inicio__hero{
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-    color: rgb(255, 255, 255);
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    padding: 180px 180px 0px 180px;
-}
 
 .main__inicio__hero__logo{
-    padding: 5px;
     width: auto;
     height: auto;
-
 }
 
 .main__inicio__hero__subtitulo{
-    padding: 20px 10px 10px 10px;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 500;
     font-size: 1.3rem;
-    width: 480px;  
-}
-
-
-.main__inicio__hero__info{
-    padding: 5px;
-    margin: 10px;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 400;
-    color: rgb(255, 255, 255);  
-    width: 510px;
-    margin-bottom: 200px;
 }
 
 
@@ -289,12 +259,11 @@ h1{
 }
 
 
-
-
 .hero{
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     width: 100%;
-    height: 500px;
+    height: 550px;
+
 }
 
 .hero__parrafo{
