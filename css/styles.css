@@ -516,7 +516,7 @@ h1{
 --------------------------------------------------------------*/
 
 .prof .team-member {
-    overflow: hidden;
+    /*overflow: hidden;*/
     text-align: center;
     border-radius: 5px;
     background: #fff;
@@ -526,10 +526,10 @@ h1{
 
 .prof .team-member .member-img {
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
-.prof .team-member .member-img:after {
+.prof .member-img:after {
     position: absolute;
     content: "";
     left: 0;
