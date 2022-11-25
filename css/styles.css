@@ -40,13 +40,29 @@ h1{
 }
 
 
+.hero{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    width: 100%;
+    height: 550px;
+
+}
+
+.hero__parrafo{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
+
 /*--------------------------------------------------------------
-# Inicio
+# Inicio - Hero
 --------------------------------------------------------------*/
 
 
 .main__inicio__hero__logo{
-    width: auto;
+    width: 55%;
     height: auto;
 }
 
@@ -55,7 +71,6 @@ h1{
     font-weight: 500;
     font-size: 1.3rem;
 }
-
 
 .main__inicio__hero__cloud{
     /*background-repeat: no-repeat;
@@ -67,6 +82,9 @@ h1{
     position: absolute;
 }
 
+/*--------------------------------------------------------------
+# Inicio - Servicios
+--------------------------------------------------------------*/
 
 .main__servicios{
     /*Paralax*/
@@ -78,87 +96,38 @@ h1{
     background-size: cover;       
     margin-bottom:0px;
     /*Paralax*/
-
-    display:flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    width: auto;
-    height: 600px;
-    /*height:fit-content;*/
-    position: relative;
 }
 
-.main__servicios__header{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    width: 40%;
-    height: auto;    
-    margin: 100px 100px 60px 100px;
-    padding: 10px;
-}
 
-.main__servicios__header__titulo{
+.main__servicios__titulo{
     color: #0077DF;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 500;
     font-size: 3rem;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
 }
 
-.main__servicios__header__info{
+.main__servicios__info{
     color: #505D68;
     font-family: 'Lato', sans-serif;
     font-size: 0.9rem;
     font-weight: 400;
-    padding: 5px;
-    text-align: center;
-    width: 450px;
-    height: auto;
-}
-
-.main__servicios__contenedor{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width:fit-content;
-    height: fit-content;
-    margin-bottom: 5px;
-}
-
-.main__servicios__contenedor__box{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 300px;
-    height: 370px;
-    padding: 5px;
-    margin: 0px 20px 0px 20px;
 }
 
 
-.main__servicios__contenedor__box__titulo{
+.card-title{
     color: rgb(255, 255, 255);
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
-    padding: 0px 5px 15px 5px;
-    margin: 10px 0px 0px 10px;
 }
 
-.main__servicios__contenedor__box__info{
+.card-text{
     color: rgb(255, 255, 255);
-    width: auto;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 0.9rem;
-    padding: 0px 5px 15px 5px;
-    margin: 0px 5px 0px 10px;
 }
+
 
 .main__servicios__contenedor__box__img {
     -webkit-mask-image: url(../assets/imgs/Mask_instalaciones.svg);
@@ -174,47 +143,12 @@ h1{
 }
 
 
-.main__obrasSociales{
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-}
+/*--------------------------------------------------------------
+# Inicio - Obras Sociales
+--------------------------------------------------------------*/
 
-
-.main__obrasSociales__lineas__svg{
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    width: 100%;
-    height: 300px;
-    z-index: 3;
-}
-
-
-.main__obrasSociales__estructura{
-    background-color: #4DD0C3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    margin-top: 150px;
-
-}
-
-
-.main__obrasSociales__estructura__titulo{
-    width: 1000px;
-    height: auto;
-    margin: 150px 0px 0px 60px;
-
-
-}   
-
-
-.main__obrasSociales__estructura__titulo__01{
-    color: rgb(255, 255, 255);
+.obrasSociales__titulo{
+    color: rgb(42, 214, 200);
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 500;
     font-size: 3rem;
@@ -223,55 +157,7 @@ h1{
 }
 
 
-.main__obrasSociales__estructura__base{
-    /*background-color: #ac85f5;*/
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 900px;
-    height: auto;
-    margin: 20px;
-    padding: 10px;
-}
 
-.main__obrasSociales__estructura__base__os1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin: 0px;
-}
-
-.main__obrasSociales__estructura__base__os2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    margin-bottom: 50px;
-}
-
-.main__obrasSociales__estructura__base__img{
-    width: 20%;
-    height: auto;
-    margin: 50px 5% 50px 5%;
-    opacity: 0.5;
-}
-
-
-.hero{
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-    width: 100%;
-    height: 550px;
-
-}
-
-.hero__parrafo{
-    color: #ffffff;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 400;
-}
 
 
 
