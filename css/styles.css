@@ -68,18 +68,17 @@ h1{
 }
 
 
-.fondo__tree {
+
+.clouds__rest {
+    background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.3;
-    width: 80%;
+    width: 100%;
     height: auto;
     overflow: hidden;
     position: relative;
-    bottom: 750px;
-    margin: 0px 0px 0px 250px;
-    z-index: 1;
+    bottom: -100px;
+    z-index: 5;
 }
-
 
 
 
@@ -117,6 +116,8 @@ h1{
     background-size: cover;       
     margin-bottom:0px;
     /*Paralax*/
+
+
 }
 
 
@@ -125,6 +126,7 @@ h1{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 500;
     font-size: 3rem;
+    z-index: 3;
 }
 
 .main__servicios__info{
@@ -132,6 +134,7 @@ h1{
     font-family: 'Lato', sans-serif;
     font-size: 0.9rem;
     font-weight: 400;
+    z-index: 3;
 }
 
 
@@ -266,7 +269,7 @@ h1{
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
-    border-radius: 5px;
+    border-radius: 1px;
     border: 0px solid rgb(255, 255, 255);
     z-index: 4;
 }
@@ -276,7 +279,7 @@ h1{
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
-    border-radius: 5px;
+    border-radius: 1px;
     border: 0px solid rgb(255, 255, 255);
     z-index: 4;
 }
@@ -286,7 +289,7 @@ h1{
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
-    border-radius: 5px;
+    border-radius: 1px;
     border: 0px solid rgb(255, 255, 255);
     z-index: 4;
 }
@@ -296,7 +299,7 @@ h1{
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
-    border-radius: 5px;
+    border-radius: 1px;
     border: 0px solid rgb(255, 255, 255);
     z-index: 4;
 }
@@ -306,7 +309,7 @@ h1{
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
-    border-radius: 5px;
+    border-radius: 1px;
     border: 0px solid rgb(255, 255, 255);
     z-index: 4;
 }
@@ -316,7 +319,7 @@ h1{
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
-    border-radius: 5px;
+    border-radius: 1px;
     border: 0px solid rgb(255, 255, 255);
     z-index: 4;
 }
