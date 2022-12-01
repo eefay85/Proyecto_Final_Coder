@@ -358,6 +358,15 @@ h1{
     }
 
 
+.main__ultimasNoticias__parrafo{
+    color: rgb(95, 95, 95);
+    width: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+        }    
+
+
 
 .main__ultimasNoticias__fecha{
     color: rgb(95, 95, 95);
