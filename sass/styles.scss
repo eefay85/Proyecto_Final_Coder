@@ -73,16 +73,18 @@ h1{
                 width: 510px;
                 }
             }
+
+        .main__inicio__hero__clouds{
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            position: relative;
+            bottom: 70px;
+            }  
         }   
-    .main__inicio__hero__clouds{
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-        position: relative;
-        bottom: 70px;
-        }        
+      
 }
 
 
@@ -649,9 +651,9 @@ h1{
                     width: 360px;
                     }
                 }
-            }
-        .main__inicio__hero__clouds {
-            bottom: 12px;
+            .main__inicio__hero__clouds {
+                bottom: 12px;
+                }
             }
     }                
 
@@ -683,7 +685,7 @@ h1{
             }
         .container{
             .main__instalaciones__parrafo{
-                width: 220px;
+                width: 320px;
                 }
             }  
 
@@ -727,10 +729,10 @@ h1{
                     width: 520px;
                     }   
                 }
+            .main__inicio__hero__clouds {
+                bottom: 40px;
+                }  
             }
-        .main__inicio__hero__clouds {
-            bottom: 40px;
-            }  
     }
 
     .main__equipo{
@@ -759,9 +761,11 @@ h1{
                 }
             .container{
                 .main__instalaciones__parrafo{
-                    width: 350px;
+                    width: 400px;
                     }
                 }
+            }    
+
 
         .main__contacto{
             .hero{
@@ -777,11 +781,13 @@ h1{
 @media(min-width: 768px) and (max-width: 991px){
     
     .main__inicio{
-        .main__inicio__hero__clouds {
-            bottom: 60px;
-        }
+        .hero{
+            .main__inicio__hero__clouds {
+                bottom: 60px;
+                }  
+            }
     }
-        
+
     .main__equipo{
         .hero{
             .main__equipo__hero__clouds {
@@ -799,24 +805,15 @@ h1{
     .main__instalaciones{
         .hero{
             .main__instalaciones__hero__clouds {
-                bottom: 200px;
-                }
-            }    
-        .container{
-            .main__instalaciones__parrafo{
-                width: 50px;
+                bottom: -150px;
                 }
             }
-        }
-
-
-
-
-
-
-
-
-
+        .container{
+            .main__instalaciones__parrafo{
+                width: 300px;
+                }
+            }
+        }    
 
 
     .main__contacto{
@@ -834,9 +831,11 @@ h1{
 @media (min-width: 992px) and (max-width: 1400px){
     
     .main_inicio{
-        .main__inicio__hero__clouds {
-            bottom: 79px;
-            } 
+        .hero{
+            .main__inicio__hero__clouds {
+                bottom: 79px;
+                } 
+            }
     }
     
     .main__equipo{
@@ -880,4 +879,4 @@ h1{
         }
     }
 }
-}
+

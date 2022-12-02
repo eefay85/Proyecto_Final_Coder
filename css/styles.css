@@ -50,7 +50,7 @@ h1 {
   font-size: 0.8rem;
   width: 510px; }
 
-.main__inicio .main__inicio__hero__clouds {
+.main__inicio .hero .main__inicio__hero__clouds {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -477,7 +477,7 @@ h1 {
     font-size: 1rem; }
   .main__inicio .hero .container .main__inicio__hero__parrafo {
     width: 360px; }
-  .main__inicio .main__inicio__hero__clouds {
+  .main__inicio .hero .main__inicio__hero__clouds {
     bottom: 12px; }
   .main__equipo .hero .container .main__equipo__hero__parrafo {
     width: 280px; }
@@ -489,7 +489,7 @@ h1 {
   .main__instalaciones .hero .main__instalaciones__hero__clouds {
     bottom: -150px; }
   .main__instalaciones .container .main__instalaciones__parrafo {
-    width: 220px; }
+    width: 320px; }
   .hero__parrafo__ultimasNoticias {
     width: 350px;
     height: auto; }
@@ -504,7 +504,7 @@ h1 {
 @media (min-width: 576px) and (max-width: 767px) {
   .main__inicio .hero .container .main__inicio__hero__parrafo {
     width: 520px; }
-  .main__inicio .main__inicio__hero__clouds {
+  .main__inicio .hero .main__inicio__hero__clouds {
     bottom: 40px; }
   .main__equipo .hero .container .main__equipo__hero__parrafo {
     width: 400px; }
@@ -515,30 +515,28 @@ h1 {
   .main__instalaciones .hero .main__instalaciones__hero__clouds {
     bottom: -150px; }
   .main__instalaciones .container .main__instalaciones__parrafo {
-    width: 350px; }
-  .main__instalaciones .main__contacto .hero .main__contacto__hero__clouds {
-    bottom: -180px; }
-  /* Tablets*/ }
+    width: 400px; }
+  .main__contacto .hero .main__contacto__hero__clouds {
+    bottom: -180px; } }
 
-@media (min-width: 576px) and (max-width: 767px) and (min-width: 768px) and (max-width: 991px) {
-  .main__inicio .main__inicio__hero__clouds {
+/* Tablets*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .main__inicio .hero .main__inicio__hero__clouds {
     bottom: 60px; }
   .main__equipo .hero .main__equipo__hero__clouds {
     bottom: -160px; }
   .main__ultimasNoticias__hero__clouds {
     bottom: -130px; }
   .main__instalaciones .hero .main__instalaciones__hero__clouds {
-    bottom: 200px; }
+    bottom: -150px; }
   .main__instalaciones .container .main__instalaciones__parrafo {
-    width: 50px; }
+    width: 300px; }
   .main__contacto .hero .main__contacto__hero__clouds {
     bottom: -160px; } }
 
-@media (min-width: 576px) and (max-width: 767px) {
-  /* Desktop */ }
-
-@media (min-width: 576px) and (max-width: 767px) and (min-width: 992px) and (max-width: 1400px) {
-  .main_inicio .main__inicio__hero__clouds {
+/* Desktop */
+@media (min-width: 992px) and (max-width: 1400px) {
+  .main_inicio .hero .main__inicio__hero__clouds {
     bottom: 79px; }
   .main__equipo .hero .main__equipo__hero__clouds {
     bottom: -130px; }
