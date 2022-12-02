@@ -10,19 +10,21 @@
 header{
     width: 100%;
     height: 100%;
+        nav{
+            background-color: #2b948b83;
+            li{
+                a{
+                color: rgb(255, 255, 255);
+                margin: 5px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                font-size: 0.8rem;        
+                }
+            }
+        }
+
 }
 
-nav{
-    background-color: #2b948b83;
-}
-
-li, a{
-    color: rgb(255, 255, 255);
-    margin: 5px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 0.8rem;
-}
 
 h1{
     font-family: 'Barlow Condensed', sans-serif;
@@ -30,44 +32,18 @@ h1{
     color: #ffffff;  
 }
 
-#navbarFooter{
-    background-color: #3952AA;
-}
-
-.nav{
-    background-color: #3952AA;
-}
-
-
 .hero{
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     width: 100%;
     height: 600px;
-
+    .container{
+        .hero__titulo{
+            font-size: 2.9rem;
+            font-weight: 400;
+                    } 
+            }    
 }
 
-.hero__titulo{
-    font-size: 2.9rem;
-    font-weight: 400;
-}
-
-.hero__parrafo__inicio{
-    color: #ffffff;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 400;
-}
-
-
-.clouds__inicio {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    position: relative;
-    bottom: 70px;
-}
 
 
 
@@ -75,99 +51,106 @@ h1{
 # Inicio - Hero
 --------------------------------------------------------------*/
 
-
-.main__inicio__hero__logo{
-    width: 400px;
-    height: auto;
-    z-index: 5;
+.main__inicio{
+    .hero{
+        .container{
+            .main__inicio__hero__logo{
+                width: 400px;
+                height: auto;
+                z-index: 5;
+                }
+            .main__inicio__hero__subtitulo{
+                font-family: 'Barlow Condensed', sans-serif;
+                font-weight: 500;
+                font-size: 1.3rem;
+                }
+            .main__inicio__hero__parrafo{
+                color: #ffffff;
+                font-family: 'Lato', sans-serif;
+                font-size: 0.9rem;
+                font-weight: 400;
+                font-size: 0.8rem;
+                width: 510px;
+                }
+            }
+        }   
+    .main__inicio__hero__clouds{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        bottom: 70px;
+        }        
 }
 
-.main__inicio__hero__subtitulo{
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 500;
-    font-size: 1.3rem;
-}
 
-.hero__parrafo__inicio{
-    font-size: 0.8rem;
-    width: 510px;
-}   
 
 /*--------------------------------------------------------------
 # Inicio - Servicios
 --------------------------------------------------------------*/
 
-.servicios__background{
-    /*Paralax*/
+.main__servicios{
     background-image: url("../assets/logos/Servicios/Vectores.svg");
     height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;       
-    /*Paralax*/
+        .main__servicios__titulo{
+            color: #0077DF;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 500;
+            font-size: 3rem;
+            z-index: 100;
+        }
+        .main__servicios__info{
+            color: #505D68;
+            font-family: 'Lato', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 400;
+            margin: 20px;
+            width: 450px;
+        }
+
+    .container{
+        .card-title{
+            color: rgb(255, 255, 255);
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 500;
+            font-size: 1.5rem;
+        }
+        .card-text{
+            color: rgb(255, 255, 255);
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 0.9rem;
+        }
+    }
 }
 
 
-.main__servicios__titulo{
-    color: #0077DF;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 500;
-    font-size: 3rem;
-    z-index: 100;
-}
-
-.main__servicios__info{
-    color: #505D68;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 400;
-    margin: 20px;
-    width: 450px;
-}
-
-
-.card-title{
-    color: rgb(255, 255, 255);
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem;
-}
-
-.card-text{
-    color: rgb(255, 255, 255);
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 0.9rem;
-}
-
-
-.main__servicios__contenedor__box__img {
-    -webkit-mask-image: url(../assets/imgs/Mask_instalaciones.svg);
-    mask-image: url(../assets/imgs/Mask_instalaciones.svg);
-    -webkit-mask-size: 100%;
-    mask-size: 100%;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.397);
-    border-radius: 10px; 
-    width: 287px;
-    height: 320px;
-}
 
 
 /*--------------------------------------------------------------
 # Inicio - Obras Sociales
 --------------------------------------------------------------*/
 
-.obrasSociales__titulo{
-    color: rgb(42, 214, 200);
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 500;
-    font-size: 3rem;
-    text-align: left;
-    padding: 5px;
+.main__obrasSociales{
+    .container{
+        .main__obrasSociales__titulo{
+            color: rgb(42, 214, 200);
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 500;
+            font-size: 3rem;
+            text-align: left;
+            padding: 5px;
+        }
+    }
 }
+
+
 
 
 
@@ -176,25 +159,35 @@ h1{
 --------------------------------------------------------------*/
 
 
+.main__equipo{
+    .hero{
+        .main__equipo__hero__parrafo{
+            color: #ffffff;
+            font-family: 'Lato', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 400;
+            width: 400px;
+            height: auto;
+            }
+        .main__equipo__hero__clouds {
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            position: relative;
+            bottom: -200px;
+            }
+        }
 
-.clouds__equipo {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    position: relative;
-    bottom: -200px;
+
+
 }
 
-.hero__parrafo__equipo{
-    color: #ffffff;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 400;
-    width: 400px;
-    height: auto;
-}
+
+
+
+
 
 .prof .team-member {
     /*overflow: hidden;*/
@@ -283,8 +276,13 @@ h1{
 }
 
 
-.testimonios__background{
-    /*Paralax*/
+
+
+
+/*--------------------------------------------------------------
+# Equipo - Testimonials
+--------------------------------------------------------------*/
+.main__equipo__testimonios{
     background-image: url("../assets/Testeo\ fondo.svg");
     height: auto;
     background-attachment: fixed;
@@ -292,29 +290,21 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;       
     z-index: 100;
-    /*Paralax*/
-}
-
-
-/*--------------------------------------------------------------
-# Equipo - Testimonials
---------------------------------------------------------------*/
-.card-text{
-    color: rgb(255, 255, 255);
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    font-size: 0.9rem
-}
-
-
-.testimonios__titulo{
-    background-color: #ffffff;
-    color: rgb(42, 214, 200);
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 500;
-    font-size: 3rem;
-    text-align: left;
-    padding: 0px;
+    .main__equipo__testimonios__titulo{
+        background-color: #ffffff;
+        color: rgb(42, 214, 200);
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 500;
+        font-size: 3rem;
+        text-align: left;
+        padding: 0px;
+    }
+    .main__equipo_testimonios_texto{
+        color: rgb(255, 255, 255);
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        font-size: 0.9rem
+    }
 }
 
 
@@ -330,7 +320,7 @@ h1{
 }
 
 
-.clouds__ultimasNoticias {
+.main__ultimasNoticias__hero__clouds {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -398,38 +388,56 @@ h1{
 # Instalaciones
 --------------------------------------------------------------*/
 
-.main__background__instalaciones{
+/*.main__background__instalaciones{
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%234dd0c3' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     border-radius: 5px;
     border: 10px solid rgb(170, 223, 217);
-}
+}*/
+
+.main__instalaciones{
+    .hero{
+        .main__instalaciones__hero__parrafo{
+            color: #ffffff;
+            font-family: 'Lato', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 400;
+            width: 420px;
+            height: auto;
+            }
+        .main__instalaciones__hero__clouds {
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            position: relative;
+            bottom: -117px;
+            }
+        }
+
+    .container{
+        .main__instalaciones__box{
+            width: 100%;
+            height: auto;
+        }
+        .main__instalaciones__titulo{
+            color: #ffffff;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 500;
+            font-size: 2rem;
+            }
+        .main__instalaciones__parrafo{
+            color: #757575;
+            font-family: 'Lato', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 400;
+            width: 400px;
+            }
+        }
+    }    
 
 
-.clouds__instalaciones {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    position: relative;
-    bottom: -200px;
-}
 
-.hero__parrafo__instalaciones{
-    color: #ffffff;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 400;
-    width: 420px;
-    height: auto;
-}
-
-.main__instalaciones__titulo{
-    color: #ffffff;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 500;
-    font-size: 2rem;
-}
 
 
 
@@ -437,24 +445,36 @@ h1{
 # Contacto
 --------------------------------------------------------------*/
 
-.clouds__contacto {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    position: relative;
-    bottom: -200px;
+.main__contacto{
+    .hero{
+        .main__contacto__hero__parrafo{
+            color: #ffffff;
+            font-family: 'Lato', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 400;
+            width: 320px;
+            height: auto;
+        }
+    }
+    .main__contacto__hero__clouds {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        bottom: -200px;
+    }
 }
 
-.hero__parrafo__contacto{
-    color: #ffffff;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 400;
-    width: 320px;
+.main__info__map{
+    width: 100%;
     height: auto;
-}
+    .main__info__map__iframe{
+        width: 100%;
+        height: 350px;
+    }
+} 
 
 .form-label{
     font-family: 'Lato', sans-serif;
@@ -462,22 +482,14 @@ h1{
     font-size: 0.9rem;
     color: rgb(42, 214, 200);
 }
-
 .btn{
     background-color: rgb(42, 214, 200);
     color: #fff;
 }
 
 
-.main__info__map{
-    width: 100%;
-    height: auto;
-}
 
-.main__info__map__iframe{
-    width: 100%;
-    height: 350px;
-}
+
 
 
 
@@ -485,6 +497,9 @@ h1{
 # Footer
 --------------------------------------------------------------*/
 
+.nav{
+    background-color: #3952AA;
+}
 
 .titulo__footer{
     color: rgb(42, 214, 200);
@@ -505,6 +520,9 @@ h1{
     border: 0px solid transparent;
 }
 
+#navbarFooter{
+    background-color: #3952AA;
+}
 
 .parrafo__footer{
     color: rgb(255, 255, 255);
@@ -615,29 +633,62 @@ h1{
 
 /* Mobile muy chicos */
 @media(max-width: 575px){
-    .main__inicio__hero__logo{
-        width: 300px;
-        height: auto;
-        z-index: 9;
+
+    .main__inicio{
+        .hero{
+            .container{
+                .main__inicio__hero__logo{
+                    width: 300px;
+                    height: auto;
+                    z-index: 9;
+                    }
+                .main__inicio__hero__subtitulo{
+                    font-size: 1rem;
+                    }
+                .main__inicio__hero__parrafo{
+                    width: 360px;
+                    }
+                }
+            }
+        .main__inicio__hero__clouds {
+            bottom: 12px;
+            }
+    }                
+
+
+    .main__equipo{
+        .hero{
+            .container{
+                .main__equipo__hero__parrafo{
+                    width: 280px;
+                    }
+
+                }
+            .main__equipo__hero__clouds {
+                bottom: -170px;
+                }
+            }
+    }    
+
+
+    .main__instalaciones{
+        .hero{
+            .main__instalaciones__hero__parrafo{
+                width: 360px;
+                height: auto;
+                }
+            .main__instalaciones__hero__clouds {
+                bottom: -150px;
+                }
+            }
+        .container{
+            .main__instalaciones__parrafo{
+                width: 220px;
+                }
+            }  
+
     }
 
-    .main__inicio__hero__subtitulo{
-        font-size: 1rem;
-    }
-
-    .hero__parrafo__inicio{
-        width: 360px;
-    }         
-
-    .hero__parrafo__equipo{
-        width: 280px;
-
-    }
-
-    .hero__parrafo__instalaciones{
-        width: 360px;
-        height: auto;
-    }
 
     .hero__parrafo__ultimasNoticias{
         width: 350px;
@@ -645,106 +696,188 @@ h1{
     }
 
     .main__servicios__info{
-
         width: 410px;
     }
 
-    .clouds__inicio {
-        bottom: 12px;
-        }
 
-    .clouds__equipo {
-            bottom: -170px;
-        }
 
-    .clouds__ultimasNoticias {
+    .main__ultimasNoticias__hero__clouds {
         bottom: -140px;
         }
     
-    .clouds__instalaciones {
-        bottom: -150px;
-        }
         
-    .clouds__contacto {
-            bottom: -190px;
+    .main__contacto{
+        hero{
+            .main__contacto__hero__clouds {
+                bottom: -190px;
+            }
         }
+    }    
+
 
 }
 
 /* Mobile chicos*/
 @media(min-width: 576px) and (max-width: 767px){
-        .hero__parrafo__inicio{
-        width: 520px;
-        } 
-    
-        .hero__parrafo__equipo{
-        width: 400px;
-        }
 
-        .clouds__inicio {
-        bottom: 40px;
-        }
+    .main__inicio{
+        .hero{
+            .container{
+                .main__inicio__hero__parrafo{
+                    width: 520px;
+                    }   
+                }
+            }
+        .main__inicio__hero__clouds {
+            bottom: 40px;
+            }  
+    }
 
-        .clouds__equipo {
-            bottom: -170px;
-        }
+    .main__equipo{
+        .hero{
+            .container{
+                .main__equipo__hero__parrafo {
+                    width: 400px;
+                    }
+                }
+            .main__equipo__hero__clouds {
+                bottom: -170px;
+                }    
+            }
+    }
 
-        .clouds__ultimasNoticias {
-            bottom: -150px;
-        }
-    
-        .clouds__instalaciones {
+        .main__ultimasNoticias__hero__clouds {
             bottom: -150px;
         }
         
-        .clouds__contacto {
-            bottom: -180px;
-        }
+
+        .main__instalaciones{
+            .hero{
+                .main__instalaciones__hero__clouds {
+                    bottom: -150px;
+                    }
+                }
+            .container{
+                .main__instalaciones__parrafo{
+                    width: 350px;
+                    }
+                }
+
+        .main__contacto{
+            .hero{
+                .main__contacto__hero__clouds {
+                    bottom: -180px;
+                    }
+                }
+            }
+
 }
 
 /* Tablets*/
 @media(min-width: 768px) and (max-width: 991px){
     
-    .clouds__inicio {
-    bottom: 60px;
+    .main__inicio{
+        .main__inicio__hero__clouds {
+            bottom: 60px;
+        }
     }
-    .clouds__equipo {
-        bottom: -160px;
+        
+    .main__equipo{
+        .hero{
+            .main__equipo__hero__clouds {
+                bottom: -160px;
+                }
+            }
+            
     }
 
-    .clouds__ultimasNoticias {
+    .main__ultimasNoticias__hero__clouds {
         bottom: -130px;
-    }
+        }
 
-    .clouds__instalaciones {
-        bottom: -140px;
-    }
 
-    .clouds__contacto {
-        bottom: -160px;
-    }
+    .main__instalaciones{
+        .hero{
+            .main__instalaciones__hero__clouds {
+                bottom: 200px;
+                }
+            }    
+        .container{
+            .main__instalaciones__parrafo{
+                width: 50px;
+                }
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+    .main__contacto{
+        .hero{
+            .main__contacto__hero__clouds {
+                bottom: -160px;
+                }
+            }
+        }
+
 }
 
 
 /* Desktop */
 @media (min-width: 992px) and (max-width: 1400px){
-    .clouds__inicio {
-    bottom: 79px;
+    
+    .main_inicio{
+        .main__inicio__hero__clouds {
+            bottom: 79px;
+            } 
+    }
+    
+    .main__equipo{
+        .hero{
+            .main__equipo__hero__clouds {
+                bottom: -130px;
+                }
+            }        
+    }
+    
+
+    .main__ultimasNoticias{
+        .hero{
+            .main__ultimasNoticias__hero__clouds {
+                bottom: -87px;
+                }
+            }    
     }
 
-    .clouds__equipo {
-    bottom: -130px;
-    }
 
-    .clouds__ultimasNoticias {
-        bottom: -87px;
-    }
+    .main__instalaciones{
+        .hero{
+            .main__instalaciones__hero__clouds {
+                bottom: -109px;
+                }
+            }
+        .container{
+            .main__instalaciones__parrafo{
+                width: 400px;
+                }
+            }
+    }        
 
-    .clouds__instalaciones {
-        bottom: -109px;
-    }
 
-    .clouds__contacto {
-        bottom: -130px;
+
+    .main__contacto{
+        .hero{
+            .main__contacto__hero__clouds {
+                bottom: -130px;
+            }
+        }
     }
+}
 }
