@@ -224,11 +224,15 @@ h1 {
 /*--------------------------------------------------------------
 # Ultimas Noticias
 --------------------------------------------------------------*/
-.main__ultimasNoticias__bg {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%234dd0c3' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  z-index: 100; }
+.main__ultimasNoticias .hero .main__ultimasNoticias__hero__parrafo {
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  width: 400px;
+  height: auto; }
 
-.main__ultimasNoticias__hero__clouds {
+.main__ultimasNoticias .hero .main__ultimasNoticias__hero__clouds {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -237,43 +241,28 @@ h1 {
   position: relative;
   bottom: -200px; }
 
-.hero__parrafo__ultimasNoticias {
-  color: #ffffff;
-  font-family: 'Lato', sans-serif;
-  font-size: 0.9rem;
-  font-weight: 400;
-  width: 400px;
-  height: auto; }
-
-.main__titulo__ultimasNoticias {
-  color: #5f5f5f;
-  font-family: 'Barlow Condensed', sans-serif;
-  font-weight: 500;
-  font-size: 3rem; }
-
-.main__ultimasNoticias__parrafo {
-  color: #5f5f5f;
-  width: auto;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 0.9rem; }
-
-.main__ultimasNoticias__fecha {
-  color: #5f5f5f;
-  width: auto;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 0.7rem; }
-
-.img__borde {
-  border: 0px solid white;
-  box-shadow: 0 8px 16px 0 rgba(53, 53, 53, 0.37); }
-
-.card-footer {
-  background-color: #dddceb4f; }
-
-#titulo__juegos {
-  color: #2ad6c8; }
+.main__ultimasNoticias__cards {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%234dd0c3' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  z-index: 100; }
+  .main__ultimasNoticias__cards .main__ultimasNoticias__cards__titulo {
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem; }
+  .main__ultimasNoticias__cards .main__ultimasNoticias__cards__parrfo {
+    color: #5f5f5f;
+    width: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem; }
+  .main__ultimasNoticias__cards .main__ultimasNoticias__cards__fecha {
+    color: #5f5f5f;
+    width: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem; }
+  .main__ultimasNoticias__cards .card-footer {
+    background-color: #dddceb4f; }
 
 /*--------------------------------------------------------------
 # Instalaciones
@@ -316,6 +305,13 @@ h1 {
   font-size: 0.9rem;
   font-weight: 400;
   width: 400px; }
+
+.main__instalaciones .container .img__borde {
+  border: 8px solid white;
+  box-shadow: 0 8px 16px 0 rgba(53, 53, 53, 0.37); }
+
+#main__instalaciones__titulo__juegos {
+  color: #2ad6c8; }
 
 /*--------------------------------------------------------------
 # Contacto
@@ -471,7 +467,6 @@ h1 {
 @media (max-width: 575px) {
   .main__inicio .hero .container .main__inicio__hero__logo {
     width: 300px;
-    height: auto;
     z-index: 9; }
   .main__inicio .hero .container .main__inicio__hero__subtitulo {
     font-size: 1rem; }
@@ -483,20 +478,16 @@ h1 {
     width: 280px; }
   .main__equipo .hero .main__equipo__hero__clouds {
     bottom: -170px; }
+  .main__ultimasNoticias .hero .main__ultimasNoticias__hero__parrafo {
+    width: 360px; }
+  .main__ultimasNoticias .hero .main__ultimasNoticias__hero__clouds {
+    bottom: -150px; }
   .main__instalaciones .hero .main__instalaciones__hero__parrafo {
-    width: 360px;
-    height: auto; }
+    width: 360px; }
   .main__instalaciones .hero .main__instalaciones__hero__clouds {
     bottom: -150px; }
   .main__instalaciones .container .main__instalaciones__parrafo {
     width: 320px; }
-  .hero__parrafo__ultimasNoticias {
-    width: 350px;
-    height: auto; }
-  .main__servicios__info {
-    width: 410px; }
-  .main__ultimasNoticias__hero__clouds {
-    bottom: -140px; }
   .main__contacto hero .main__contacto__hero__clouds {
     bottom: -190px; } }
 
@@ -510,7 +501,9 @@ h1 {
     width: 400px; }
   .main__equipo .hero .main__equipo__hero__clouds {
     bottom: -170px; }
-  .main__ultimasNoticias__hero__clouds {
+  .main__ultimasNoticias .hero .main__ultimasNoticias__hero__parrafo {
+    width: 480px; }
+  .main__ultimasNoticias .hero .main__ultimasNoticias__hero__clouds {
     bottom: -150px; }
   .main__instalaciones .hero .main__instalaciones__hero__clouds {
     bottom: -150px; }
@@ -525,8 +518,10 @@ h1 {
     bottom: 60px; }
   .main__equipo .hero .main__equipo__hero__clouds {
     bottom: -160px; }
-  .main__ultimasNoticias__hero__clouds {
-    bottom: -130px; }
+  .main__ultimasNoticias .hero .main__ultimasNoticias__hero__parrafo {
+    width: 480px; }
+  .main__ultimasNoticias .hero .main__ultimasNoticias__hero__clouds {
+    bottom: -150px; }
   .main__instalaciones .hero .main__instalaciones__hero__clouds {
     bottom: -150px; }
   .main__instalaciones .container .main__instalaciones__parrafo {
@@ -539,12 +534,14 @@ h1 {
   .main_inicio .hero .main__inicio__hero__clouds {
     bottom: 79px; }
   .main__equipo .hero .main__equipo__hero__clouds {
-    bottom: -130px; }
+    bottom: -135px; }
+  .main__ultimasNoticias .hero .main__ultimasNoticias__hero__parrafo {
+    width: 480px; }
   .main__ultimasNoticias .hero .main__ultimasNoticias__hero__clouds {
-    bottom: -87px; }
+    bottom: -118px; }
   .main__instalaciones .hero .main__instalaciones__hero__clouds {
-    bottom: -109px; }
+    bottom: -119px; }
   .main__instalaciones .container .main__instalaciones__parrafo {
     width: 400px; }
   .main__contacto .hero .main__contacto__hero__clouds {
-    bottom: -130px; } }
+    bottom: -140px; } }
