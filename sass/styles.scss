@@ -18,11 +18,13 @@ header{
                 margin: 5px;
                 font-family: 'Lato', sans-serif;
                 font-weight: 400;
-                font-size: 0.8rem;        
+                font-size: 0.8rem;
+                    .nav-link {
+                        border: 0px solid transparent;
+                    }                           
                 }
             }
         }
-
 }
 
 
@@ -48,7 +50,7 @@ h1{
 
 
 /*--------------------------------------------------------------
-# Inicio - Hero
+# Inicio
 --------------------------------------------------------------*/
 
 .main__inicio{
@@ -73,7 +75,6 @@ h1{
                 width: 510px;
                 }
             }
-
         .main__inicio__hero__clouds{
             background-repeat: no-repeat;
             background-size: cover;
@@ -83,81 +84,62 @@ h1{
             position: relative;
             bottom: 70px;
             }  
-        }   
-      
+        }
+        .main__servicios{
+            background-image: url("../assets/logos/Servicios/Vectores.svg");
+            height: auto;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;       
+                .main__servicios__titulo{
+                    color: #0077DF;
+                    font-family: 'Barlow Condensed', sans-serif;
+                    font-weight: 500;
+                    font-size: 3rem;
+                    z-index: 100;
+                }
+                .main__servicios__info{
+                    color: #505D68;
+                    font-family: 'Lato', sans-serif;
+                    font-size: 0.9rem;
+                    font-weight: 400;
+                    margin: 20px;
+                    width: 450px;
+                }
+            .container{
+                .card-title{
+                    color: rgb(255, 255, 255);
+                    font-family: 'Barlow Condensed', sans-serif;
+                    font-weight: 500;
+                    font-size: 1.5rem;
+                }
+                .card-text{
+                    color: rgb(255, 255, 255);
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 400;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+        .main__obrasSociales{
+            .container{
+                .main__obrasSociales__titulo{
+                    color: rgb(42, 214, 200);
+                    font-family: 'Barlow Condensed', sans-serif;
+                    font-weight: 500;
+                    font-size: 3rem;
+                    text-align: left;
+                    padding: 5px;
+                }
+            }
+        }           
 }
 
 
 
 /*--------------------------------------------------------------
-# Inicio - Servicios
---------------------------------------------------------------*/
-
-.main__servicios{
-    background-image: url("../assets/logos/Servicios/Vectores.svg");
-    height: auto;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;       
-        .main__servicios__titulo{
-            color: #0077DF;
-            font-family: 'Barlow Condensed', sans-serif;
-            font-weight: 500;
-            font-size: 3rem;
-            z-index: 100;
-        }
-        .main__servicios__info{
-            color: #505D68;
-            font-family: 'Lato', sans-serif;
-            font-size: 0.9rem;
-            font-weight: 400;
-            margin: 20px;
-            width: 450px;
-        }
-
-    .container{
-        .card-title{
-            color: rgb(255, 255, 255);
-            font-family: 'Barlow Condensed', sans-serif;
-            font-weight: 500;
-            font-size: 1.5rem;
-        }
-        .card-text{
-            color: rgb(255, 255, 255);
-            font-family: 'Lato', sans-serif;
-            font-weight: 400;
-            font-size: 0.9rem;
-        }
-    }
-}
-
-
-
-
-/*--------------------------------------------------------------
-# Inicio - Obras Sociales
---------------------------------------------------------------*/
-
-.main__obrasSociales{
-    .container{
-        .main__obrasSociales__titulo{
-            color: rgb(42, 214, 200);
-            font-family: 'Barlow Condensed', sans-serif;
-            font-weight: 500;
-            font-size: 3rem;
-            text-align: left;
-            padding: 5px;
-        }
-    }
-}
-
-
-
-
-
-/*--------------------------------------------------------------
-# Equipo Section
+# Equipo
 --------------------------------------------------------------*/
 
 
@@ -181,135 +163,107 @@ h1{
             bottom: -200px;
             }
         }
-
-
+    
+        .main__equipo__prof{
+            .container{
+                .team-member{
+                    /*overflow: hidden;*/
+                    text-align: center;
+                    border-radius: 5px;
+                    background: #fff;
+                    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
+                    transition: 0.3s;
+                    z-index: 100;
+                    &:hover {
+                        transform: scale(1.08);
+                        box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
+                        }
+                        .member-img{
+                            position: relative;
+                            overflow: hidden;
+                            &:after {
+                                position: absolute;
+                                content: "";
+                                left: 0;
+                                bottom: 0;
+                                height: 100%;
+                                width: 100%;;
+                                background: url(../assets/team-shape.svg) no-repeat center bottom;
+                                background-size: contain;
+                                }
+                            }
+                        }
+                        .social{
+                        position: absolute;
+                        right: -100%;
+                        top: 30px;
+                        opacity: 0;
+                        border-radius: 4px;
+                        transition: 0.5s;
+                        background: rgba(255, 255, 255, 0.3);
+                            a{
+                                transition: color 0.3s;
+                                color: rgba(55, 55, 63, 0.4);
+                                margin: 15px 12px;
+                                display: block;
+                                line-height: 0;
+                                text-align: center;
+                                &:hover {
+                                    color: rgba(55, 55, 63, 0.9);  
+                                }
+                            }
+                        }
+                        .member-info {
+                            padding: 10px 15px 20px 15px;
+                                h4{
+                                    color: rgb(42, 214, 200);
+                                    font-family: 'Barlow Condensed', sans-serif;
+                                    font-weight: 500;
+                                    font-size: 1.5rem
+                                    margin-bottom 5px;
+                                }
+                                span{
+                                    font-family: 'Lato', sans-serif;
+                                    font-weight: 700;
+                                    font-size: 0.8rem;
+                                    color:  rgba(0, 118, 253, 0.377);
+                                }
+                                p{
+                                    font-family: 'Lato', sans-serif;
+                                    font-weight: 400;
+                                    font-size: 0.8rem;
+                                    padding-top: 15px;
+                                    color: rgba(33, 37, 41, 0.7);  
+                                }
+                        }
+                }
+            }
+            .main__equipo__testimonios{
+                background-image: url("../assets/Testeo\ fondo.svg");
+                height: auto;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;       
+                z-index: 100;
+                .main__equipo__testimonios__titulo{
+                    background-color: #ffffff;
+                    color: rgb(42, 214, 200);
+                    font-family: 'Barlow Condensed', sans-serif;
+                    font-weight: 500;
+                    font-size: 3rem;
+                    text-align: left;
+                    padding: 0px;
+                }
+                .main__equipo_testimonios_texto{
+                    color: rgb(255, 255, 255);
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 500;
+                    font-size: 0.9rem
+                }
+            }
 
 }
-
-
-
-
-
-
-.prof .team-member {
-    /*overflow: hidden;*/
-    text-align: center;
-    border-radius: 5px;
-    background: #fff;
-    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
-    transition: 0.3s;
-    z-index: 100;
-}
-
-.prof .team-member .member-img {
-    position: relative;
-    overflow: hidden;
-}
-
-.prof .member-img:after {
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;;
-    background: url(../assets/team-shape.svg) no-repeat center bottom;
-    background-size: contain;
-
-}
-
-.prof .team-member .social {
-    position: absolute;
-    right: -100%;
-    top: 30px;
-    opacity: 0;
-    border-radius: 4px;
-    transition: 0.5s;
-    background: rgba(255, 255, 255, 0.3);
-}
-
-.prof .team-member .social a {
-    transition: color 0.3s;
-    color: rgba(55, 55, 63, 0.4);
-    margin: 15px 12px;
-    display: block;
-    line-height: 0;
-    text-align: center;
-}
-
-.prof .team-member .social a:hover {
-    color: rgba(55, 55, 63, 0.9);
-}
-
-.prof .team-member .social i {
-    font-size: 18px;
-}
-
-.prof .team-member .member-info {
-    padding: 10px 15px 20px 15px;
-}
-
-.prof .team-member .member-info h4 {
-    color: rgb(42, 214, 200);
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem
-    margin-bottom 5px;
-}
-
-.prof .team-member .member-info span {
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 0.8rem;
-    color:  rgba(0, 118, 253, 0.377);
-}
-
-.prof .team-member .member-info p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 0.8rem;
-    padding-top: 15px;
-    color: rgba(33, 37, 41, 0.7);
-}
-
-.prof .team-member:hover {
-    transform: scale(1.08);
-    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
-}
-
-
-
-
-
-/*--------------------------------------------------------------
-# Equipo - Testimonials
---------------------------------------------------------------*/
-.main__equipo__testimonios{
-    background-image: url("../assets/Testeo\ fondo.svg");
-    height: auto;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;       
-    z-index: 100;
-    .main__equipo__testimonios__titulo{
-        background-color: #ffffff;
-        color: rgb(42, 214, 200);
-        font-family: 'Barlow Condensed', sans-serif;
-        font-weight: 500;
-        font-size: 3rem;
-        text-align: left;
-        padding: 0px;
-    }
-    .main__equipo_testimonios_texto{
-        color: rgb(255, 255, 255);
-        font-family: 'Lato', sans-serif;
-        font-weight: 500;
-        font-size: 0.9rem
-    }
-}
-
-
 
 
 /*--------------------------------------------------------------
@@ -371,8 +325,6 @@ h1{
 
 
 
-
-
 /*--------------------------------------------------------------
 # Instalaciones
 --------------------------------------------------------------*/
@@ -403,7 +355,6 @@ h1{
             bottom: -117px;
             }
         }
-
     .container{
         .main__instalaciones__box{
             width: 100%;
@@ -415,7 +366,6 @@ h1{
             font-weight: 500;
             font-size: 2rem;
             }
-
         .main__instalaciones__parrafo{
             color: #757575;
             font-family: 'Lato', sans-serif;
@@ -449,7 +399,7 @@ h1{
             font-weight: 400;
             width: 320px;
             height: auto;
-        }
+        } 
     }
     .main__contacto__hero__clouds {
         background-repeat: no-repeat;
@@ -460,27 +410,29 @@ h1{
         position: relative;
         bottom: -200px;
     }
-}
-
-.main__info__map{
-    width: 100%;
-    height: auto;
-    .main__info__map__iframe{
+    .main__info__map{
         width: 100%;
-        height: 350px;
+        height: auto;
+        .main__info__map__iframe{
+            width: 100%;
+            height: 350px;
+        }
     }
-} 
+    .form-label{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 0.9rem;
+        color: rgb(42, 214, 200);
+    }
+    .btn{
+        background-color: rgb(42, 214, 200);
+        color: #fff;
+    }
+}
 
-.form-label{
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 0.9rem;
-    color: rgb(42, 214, 200);
-}
-.btn{
-    background-color: rgb(42, 214, 200);
-    color: #fff;
-}
+
+
+
 
 
 
@@ -492,44 +444,48 @@ h1{
 # Footer
 --------------------------------------------------------------*/
 
-.nav{
-    background-color: #3952AA;
+footer{
+    .container{
+        .row{
+            .footer__titulo{
+                color: rgb(42, 214, 200);
+                font-family: 'Barlow Condensed', sans-serif;
+                font-weight: 500;
+                font-size: 1.5rem;
+            }
+            .footer__parrafo{
+                color: rgb(255, 255, 255);
+                width: auto;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                font-size: 0.8rem;
+            }
+        }
+    }
+    .footer__nav{
+        background-color: #3952AA;
+    
+            .footer__logo__ceti{
+                width: 75px;
+                height: auto;
+                }
+    
+            .footer__copyright{
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                font-size: 0.7rem;   
+                }
+            .navbar-toggler {
+                border: 0px solid transparent;
+                }
+                
+    }
 }
 
-.titulo__footer{
-    color: rgb(42, 214, 200);
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem;
-}
 
-.navbar-toggler {
-    border: 0px solid transparent;
-}
-
-.nav-tabs .nav-link {
-    border: 0px solid transparent;
-}
-
-.nav-link {
-    border: 0px solid transparent;
-}
 
 #navbarFooter{
     background-color: #3952AA;
-}
-
-.parrafo__footer{
-    color: rgb(255, 255, 255);
-    width: auto;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 0.8rem;
-}
-
-.logo__ceti__footer{
-    width: 75px;
-    height: auto;
 }
 
 #instagram{
@@ -545,12 +501,6 @@ h1{
 #mail{
     width: 20px;
     height: auto;
-}
-
-.copyright{
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 0.7rem;   
 }
 
 

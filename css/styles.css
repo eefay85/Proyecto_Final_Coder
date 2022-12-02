@@ -15,6 +15,8 @@ header {
       font-family: 'Lato', sans-serif;
       font-weight: 400;
       font-size: 0.8rem; }
+      header nav li a .nav-link {
+        border: 0px solid transparent; }
 
 h1 {
   font-family: 'Barlow Condensed', sans-serif;
@@ -30,7 +32,7 @@ h1 {
     font-weight: 400; }
 
 /*--------------------------------------------------------------
-# Inicio - Hero
+# Inicio
 --------------------------------------------------------------*/
 .main__inicio .hero .container .main__inicio__hero__logo {
   width: 400px;
@@ -59,44 +61,38 @@ h1 {
   position: relative;
   bottom: 70px; }
 
-/*--------------------------------------------------------------
-# Inicio - Servicios
---------------------------------------------------------------*/
-.main__servicios {
+.main__inicio .main__servicios {
   background-image: url("../assets/logos/Servicios/Vectores.svg");
   height: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  .main__servicios .main__servicios__titulo {
+  .main__inicio .main__servicios .main__servicios__titulo {
     color: #0077DF;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 500;
     font-size: 3rem;
     z-index: 100; }
-  .main__servicios .main__servicios__info {
+  .main__inicio .main__servicios .main__servicios__info {
     color: #505D68;
     font-family: 'Lato', sans-serif;
     font-size: 0.9rem;
     font-weight: 400;
     margin: 20px;
     width: 450px; }
-  .main__servicios .container .card-title {
+  .main__inicio .main__servicios .container .card-title {
     color: white;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 500;
     font-size: 1.5rem; }
-  .main__servicios .container .card-text {
+  .main__inicio .main__servicios .container .card-text {
     color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 0.9rem; }
 
-/*--------------------------------------------------------------
-# Inicio - Obras Sociales
---------------------------------------------------------------*/
-.main__obrasSociales .container .main__obrasSociales__titulo {
+.main__inicio .main__obrasSociales .container .main__obrasSociales__titulo {
   color: #2ad6c8;
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 500;
@@ -105,7 +101,7 @@ h1 {
   padding: 5px; }
 
 /*--------------------------------------------------------------
-# Equipo Section
+# Equipo
 --------------------------------------------------------------*/
 .main__equipo .hero .main__equipo__hero__parrafo {
   color: #ffffff;
@@ -124,7 +120,7 @@ h1 {
   position: relative;
   bottom: -200px; }
 
-.prof .team-member {
+.main__equipo .main__equipo__prof .container .team-member {
   /*overflow: hidden;*/
   text-align: center;
   border-radius: 5px;
@@ -132,22 +128,23 @@ h1 {
   box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
   transition: 0.3s;
   z-index: 100; }
+  .main__equipo .main__equipo__prof .container .team-member:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15); }
+  .main__equipo .main__equipo__prof .container .team-member .member-img {
+    position: relative;
+    overflow: hidden; }
+    .main__equipo .main__equipo__prof .container .team-member .member-img:after {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+      height: 100%;
+      width: 100%;
+      background: url(../assets/team-shape.svg) no-repeat center bottom;
+      background-size: contain; }
 
-.prof .team-member .member-img {
-  position: relative;
-  overflow: hidden; }
-
-.prof .member-img:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  background: url(../assets/team-shape.svg) no-repeat center bottom;
-  background-size: contain; }
-
-.prof .team-member .social {
+.main__equipo .main__equipo__prof .container .social {
   position: absolute;
   right: -100%;
   top: 30px;
@@ -155,51 +152,36 @@ h1 {
   border-radius: 4px;
   transition: 0.5s;
   background: rgba(255, 255, 255, 0.3); }
+  .main__equipo .main__equipo__prof .container .social a {
+    transition: color 0.3s;
+    color: rgba(55, 55, 63, 0.4);
+    margin: 15px 12px;
+    display: block;
+    line-height: 0;
+    text-align: center; }
+    .main__equipo .main__equipo__prof .container .social a:hover {
+      color: rgba(55, 55, 63, 0.9); }
 
-.prof .team-member .social a {
-  transition: color 0.3s;
-  color: rgba(55, 55, 63, 0.4);
-  margin: 15px 12px;
-  display: block;
-  line-height: 0;
-  text-align: center; }
-
-.prof .team-member .social a:hover {
-  color: rgba(55, 55, 63, 0.9); }
-
-.prof .team-member .social i {
-  font-size: 18px; }
-
-.prof .team-member .member-info {
+.main__equipo .main__equipo__prof .container .member-info {
   padding: 10px 15px 20px 15px; }
+  .main__equipo .main__equipo__prof .container .member-info h4 {
+    color: #2ad6c8;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem margin-bottom 5px; }
+  .main__equipo .main__equipo__prof .container .member-info span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: rgba(0, 118, 253, 0.377); }
+  .main__equipo .main__equipo__prof .container .member-info p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding-top: 15px;
+    color: rgba(33, 37, 41, 0.7); }
 
-.prof .team-member .member-info h4 {
-  color: #2ad6c8;
-  font-family: 'Barlow Condensed', sans-serif;
-  font-weight: 500;
-  font-size: 1.5rem margin-bottom 5px; }
-
-.prof .team-member .member-info span {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 0.8rem;
-  color: rgba(0, 118, 253, 0.377); }
-
-.prof .team-member .member-info p {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 0.8rem;
-  padding-top: 15px;
-  color: rgba(33, 37, 41, 0.7); }
-
-.prof .team-member:hover {
-  transform: scale(1.08);
-  box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15); }
-
-/*--------------------------------------------------------------
-# Equipo - Testimonials
---------------------------------------------------------------*/
-.main__equipo__testimonios {
+.main__equipo .main__equipo__testimonios {
   background-image: url("../assets/Testeo fondo.svg");
   height: auto;
   background-attachment: fixed;
@@ -207,7 +189,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 100; }
-  .main__equipo__testimonios .main__equipo__testimonios__titulo {
+  .main__equipo .main__equipo__testimonios .main__equipo__testimonios__titulo {
     background-color: #ffffff;
     color: #2ad6c8;
     font-family: 'Barlow Condensed', sans-serif;
@@ -215,7 +197,7 @@ h1 {
     font-size: 3rem;
     text-align: left;
     padding: 0px; }
-  .main__equipo__testimonios .main__equipo_testimonios_texto {
+  .main__equipo .main__equipo__testimonios .main__equipo_testimonios_texto {
     color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
@@ -335,57 +317,53 @@ h1 {
   position: relative;
   bottom: -200px; }
 
-.main__info__map {
+.main__contacto .main__info__map {
   width: 100%;
   height: auto; }
-  .main__info__map .main__info__map__iframe {
+  .main__contacto .main__info__map .main__info__map__iframe {
     width: 100%;
     height: 350px; }
 
-.form-label {
+.main__contacto .form-label {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
   color: #2ad6c8; }
 
-.btn {
+.main__contacto .btn {
   background-color: #2ad6c8;
   color: #fff; }
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-.nav {
-  background-color: #3952AA; }
-
-.titulo__footer {
+footer .container .row .footer__titulo {
   color: #2ad6c8;
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 500;
   font-size: 1.5rem; }
 
-.navbar-toggler {
-  border: 0px solid transparent; }
-
-.nav-tabs .nav-link {
-  border: 0px solid transparent; }
-
-.nav-link {
-  border: 0px solid transparent; }
-
-#navbarFooter {
-  background-color: #3952AA; }
-
-.parrafo__footer {
+footer .container .row .footer__parrafo {
   color: white;
   width: auto;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 0.8rem; }
 
-.logo__ceti__footer {
-  width: 75px;
-  height: auto; }
+footer .footer__nav {
+  background-color: #3952AA; }
+  footer .footer__nav .footer__logo__ceti {
+    width: 75px;
+    height: auto; }
+  footer .footer__nav .footer__copyright {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem; }
+  footer .footer__nav .navbar-toggler {
+    border: 0px solid transparent; }
+
+#navbarFooter {
+  background-color: #3952AA; }
 
 #instagram {
   width: 22px;
@@ -398,11 +376,6 @@ h1 {
 #mail {
   width: 20px;
   height: auto; }
-
-.copyright {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 0.7rem; }
 
 /*--------------------------------------------------------------
 # Cards
