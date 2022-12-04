@@ -1,0 +1,56 @@
+footer{
+    .container{
+        .row{
+            .footer__titulo{
+                color: rgb(42, 214, 200);
+                font-family: 'Barlow Condensed', sans-serif;
+                font-weight: 500;
+                font-size: 1.5rem;
+            }
+            .footer__parrafo{
+                color: rgb(255, 255, 255);
+                width: auto;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                font-size: 0.8rem;
+            }
+        }
+    }
+    .footer__nav{
+        background-color: #3952AA;
+    
+            .footer__logo__ceti{
+                width: 75px;
+                height: auto;
+                }
+    
+            .footer__copyright{
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                font-size: 0.7rem;   
+                }
+            .navbar-toggler {
+                border: 0px solid transparent;
+                }
+                
+    }
+}
+
+#navbarFooter{
+    background-color: #3952AA;
+}
+
+#instagram{
+    width: 22px;
+    height: auto;
+}
+
+#facebook{
+    width: 20px;
+    height: auto;
+}
+
+#mail{
+    width: 20px;
+    height: auto;
+}

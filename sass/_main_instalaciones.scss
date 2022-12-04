@@ -1,0 +1,129 @@
+
+.main__instalaciones{
+    .hero{
+        .main__instalaciones__hero__parrafo{
+            color: #ffffff;
+            font-family: 'Lato', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 400;
+            width: 420px;
+            height: auto;
+            }
+        .main__instalaciones__hero__clouds {
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            position: relative;
+            bottom: -117px;
+            }
+        }
+    .main__instalaciones__background{
+        background-color: #ffffff;
+        background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%234dd0c3' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+        .main__instalaciones__box{
+            width: 100%;
+            height: auto;
+        }
+        .main__instalaciones__titulo{
+            color: #ffffff;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 500;
+            font-size: 2rem;
+            padding: 10px;
+            }
+        .main__instalaciones__parrafo{
+            background-color: #f381f3;
+            color: #ffffff;
+            font-family: 'Lato', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 400;
+            width: 400px;
+            padding: 10px;
+            }
+        .main__instalaciones__img{
+            border: 8px solid rgb(255, 255, 255);
+            box-shadow: 0 8px 16px 0 rgba(53, 53, 53, 0.37);
+            }    
+        }
+    }    
+
+    #main__instalaciones__titulo__juegos{
+        background-color: #ffffff;
+        color: rgb(42, 214, 200);
+        width: 185px;
+        height: auto;
+    }
+
+
+    
+/* Mobile muy chicos */
+@media(max-width: 575px){
+    .main__instalaciones{
+        .hero{
+            .main__instalaciones__hero__parrafo{
+                width: 360px;
+                }
+            .main__instalaciones__hero__clouds {
+                bottom: -150px;
+                }
+            }
+        .container{
+            .main__instalaciones__parrafo{
+                width: 320px;
+                }
+            }  
+    }
+}
+
+/* Mobile chicos*/
+@media(min-width: 576px) and (max-width: 767px){
+        .main__instalaciones{
+            .hero{
+                .main__instalaciones__hero__clouds {
+                    bottom: -150px;
+                    }
+                }
+            .container{
+                .main__instalaciones__parrafo{
+                    width: 400px;
+                    }
+                }
+            }    
+}
+
+
+
+/* Tablets*/
+@media(min-width: 768px) and (max-width: 991px){
+    .main__instalaciones{
+        .hero{
+            .main__instalaciones__hero__clouds {
+                bottom: -150px;
+                }
+            }
+        .container{
+            .main__instalaciones__parrafo{
+                width: 300px;
+                }
+            }
+        }    
+}
+
+
+/* Desktop */
+@media (min-width: 992px) and (max-width: 1400px){
+    .main__instalaciones{
+        .hero{
+            .main__instalaciones__hero__clouds {
+                bottom: -119px;
+                }
+            }
+        .container{
+            .main__instalaciones__parrafo{
+                width: 400px;
+                }
+            }
+    }        
+}

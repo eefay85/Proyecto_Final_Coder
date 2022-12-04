@@ -1,0 +1,88 @@
+
+.main__contacto{
+    .hero{
+        .main__contacto__hero__parrafo{
+            color: #ffffff;
+            font-family: 'Lato', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 400;
+            width: 320px;
+            height: auto;
+        } 
+    }
+    .main__contacto__hero__clouds {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        bottom: -200px;
+    }
+    .main__info__map{
+        width: 100%;
+        height: auto;
+        .main__info__map__iframe{
+            width: 100%;
+            height: 350px;
+        }
+    }
+    .form-label{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 0.9rem;
+        color: rgb(42, 214, 200);
+    }
+    .btn{
+        background-color: rgb(42, 214, 200);
+        color: #fff;
+    }
+}
+
+
+
+
+/* Mobile muy chicos */
+@media(max-width: 575px){
+    .main__contacto{
+        hero{
+            .main__contacto__hero__clouds {
+                bottom: -190px;
+            }
+        }
+    }    
+}
+
+/* Mobile chicos*/
+@media(min-width: 576px) and (max-width: 767px){
+        .main__contacto{
+            .hero{
+                .main__contacto__hero__clouds {
+                    bottom: -180px;
+                    }
+                }
+            }
+}
+
+/* Tablets*/
+@media(min-width: 768px) and (max-width: 991px){
+    .main__contacto{
+        .hero{
+            .main__contacto__hero__clouds {
+                bottom: -160px;
+                }
+            }
+        }
+}
+
+
+/* Desktop */
+@media (min-width: 992px) and (max-width: 1400px){
+    .main__contacto{
+        .hero{
+            .main__contacto__hero__clouds {
+                bottom: -140px;
+            }
+        }
+    }
+}
