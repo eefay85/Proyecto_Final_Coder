@@ -5,6 +5,7 @@
 /*Tamaño de texto*/
 /*Tamaño de weight*/
 /*Backgrounds*/
+/*Bordes*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -25,9 +26,9 @@ header {
         border: 0px solid transparent; }
 
 h1 {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   font-weight: 500;
-  color: #ffffff; }
+  color: #FFFFFF; }
 
 .hero {
   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
@@ -46,7 +47,7 @@ h1 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px;
-  border: 0px solid white;
+  border: 0px solid #FFFFFF;
   z-index: 4; }
 
 #boxCeleste {
@@ -55,7 +56,7 @@ h1 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px;
-  border: 0px solid white;
+  border: 0px solid #FFFFFF;
   z-index: 4; }
 
 #boxVerde01 {
@@ -64,7 +65,7 @@ h1 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px;
-  border: 0px solid white;
+  border: 0px solid #FFFFFF;
   z-index: 4; }
 
 #boxMarron {
@@ -73,7 +74,7 @@ h1 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px;
-  border: 0px solid white;
+  border: 0px solid #FFFFFF;
   z-index: 4; }
 
 #boxVerde02 {
@@ -82,7 +83,7 @@ h1 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px;
-  border: 0px solid white;
+  border: 0px solid #FFFFFF;
   z-index: 4; }
 
 #boxRosa {
@@ -91,7 +92,7 @@ h1 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px;
-  border: 0px solid white;
+  border: 0px solid #FFFFFF;
   z-index: 4; }
 
 .quote {
@@ -99,16 +100,22 @@ h1 {
   height: auto; }
 
 footer .container .row .footer__titulo {
-  color: #2ad6c8;
-  font-family: 'Barlow Condensed', sans-serif;
+  color: #4DD0C3;
+  font-family: "Barlow Condensed", sans-serif;
   font-weight: 500;
-  font-size: 1.5rem; }
+  font-size: 1.3rem; }
 
 footer .container .row .footer__parrafo {
-  color: white;
+  color: #FFFFFF;
   width: auto;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem; }
+
+footer .container .row .footer__texto_derecho {
+  color: #FFFFFF;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
   font-size: 0.8rem; }
 
 footer .footer__nav {
@@ -117,9 +124,9 @@ footer .footer__nav {
     width: 75px;
     height: auto; }
   footer .footer__nav .footer__copyright {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 0.7rem; }
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem; }
   footer .footer__nav .navbar-toggler {
     border: 0px solid transparent; }
 
@@ -139,9 +146,9 @@ footer .footer__nav {
   height: auto; }
 
 h1 {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   font-weight: 500;
-  color: #ffffff; }
+  color: #FFFFFF; }
 
 .hero {
   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
@@ -160,7 +167,7 @@ h1 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px;
-  border: 0px solid white;
+  border: 0px solid #FFFFFF;
   z-index: 4; }
 
 #boxCeleste {
@@ -169,7 +176,7 @@ h1 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px;
-  border: 0px solid white;
+  border: 0px solid #FFFFFF;
   z-index: 4; }
 
 #boxVerde01 {
@@ -178,7 +185,7 @@ h1 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px;
-  border: 0px solid white;
+  border: 0px solid #FFFFFF;
   z-index: 4; }
 
 #boxMarron {
@@ -187,7 +194,7 @@ h1 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px;
-  border: 0px solid white;
+  border: 0px solid #FFFFFF;
   z-index: 4; }
 
 #boxVerde02 {
@@ -196,7 +203,7 @@ h1 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px;
-  border: 0px solid white;
+  border: 0px solid #FFFFFF;
   z-index: 4; }
 
 #boxRosa {
@@ -205,7 +212,7 @@ h1 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px;
-  border: 0px solid white;
+  border: 0px solid #FFFFFF;
   z-index: 4; }
 
 .quote {
@@ -313,8 +320,8 @@ h1 {
     bottom: 80px; } }
 
 .main__equipo .hero .main__equipo__hero__parrafo {
-  color: #ffffff;
-  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-family: "Lato", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   width: 400px;
@@ -333,13 +340,13 @@ h1 {
   /*overflow: hidden;*/
   text-align: center;
   border-radius: 5px;
-  background: #fff;
+  background: #FFFFFF;
   box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
   transition: 0.3s;
   z-index: 100; }
   .main__equipo .main__equipo__prof .container .team-member:hover {
     transform: scale(1.08);
-    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15); }
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08); }
   .main__equipo .main__equipo__prof .container .team-member .member-img {
     position: relative;
     overflow: hidden; }
@@ -369,26 +376,27 @@ h1 {
     line-height: 0;
     text-align: center; }
     .main__equipo .main__equipo__prof .container .social a:hover {
-      color: rgba(55, 55, 63, 0.9); }
+      color: rgba(55, 55, 63, 0.4); }
 
 .main__equipo .main__equipo__prof .container .member-info {
   padding: 10px 15px 20px 15px; }
   .main__equipo .main__equipo__prof .container .member-info h4 {
-    color: #2ad6c8;
-    font-family: 'Barlow Condensed', sans-serif;
+    color: #4DD0C3;
+    font-family: "Barlow Condensed", sans-serif;
     font-weight: 500;
-    font-size: 1.5rem margin-bottom 5px; }
+    font-size: 1.5rem;
+    margin-bottom: 5px; }
   .main__equipo .main__equipo__prof .container .member-info span {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 0.8rem;
-    color: rgba(0, 118, 253, 0.377); }
+    color: #0077DF; }
   .main__equipo .main__equipo__prof .container .member-info p {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 0.8rem;
     padding-top: 15px;
-    color: rgba(33, 37, 41, 0.7); }
+    color: #505D68; }
 
 .main__equipo .main__equipo__testimonios {
   background-image: url("../assets/Testeo fondo.svg");
@@ -399,16 +407,16 @@ h1 {
   background-size: cover;
   z-index: 100; }
   .main__equipo .main__equipo__testimonios .main__equipo__testimonios__titulo {
-    background-color: #ffffff;
-    color: #2ad6c8;
-    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #FFFFFF;
+    color: #4DD0C3;
+    font-family: "Barlow Condensed", sans-serif;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2.9rem;
     text-align: left;
     padding: 0px; }
   .main__equipo .main__equipo__testimonios .main__equipo_testimonios_texto {
-    color: white;
-    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 0.9rem; }
 
@@ -437,8 +445,8 @@ h1 {
     bottom: -140px; } }
 
 .main__ultimasNoticias .hero .main__ultimasNoticias__hero__parrafo {
-  color: #ffffff;
-  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-family: "Lato", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   width: 400px;
@@ -459,24 +467,24 @@ h1 {
     width: 360px;
     height: auto; }
     .main__ultimasNoticias .main__ultimasNoticias__cards .main__ultimasNoticias__cards__body .main__ultimasNoticias__cards__titulo {
-      color: white;
-      font-family: 'Barlow Condensed', sans-serif;
+      color: #FFFFFF;
+      font-family: "Barlow Condensed", sans-serif;
       font-weight: 500;
-      font-size: 1.8rem; }
+      font-size: 1.5rem; }
     .main__ultimasNoticias .main__ultimasNoticias__cards .main__ultimasNoticias__cards__body .main__ultimasNoticias__cards__parrfo {
-      color: #5f5f5f;
+      color: #505D68;
       width: auto;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-weight: 400;
       font-size: 0.9rem; }
     .main__ultimasNoticias .main__ultimasNoticias__cards .main__ultimasNoticias__cards__body .main__ultimasNoticias__cards__fecha {
-      color: #5f5f5f;
+      color: #FFFFFF;
       width: auto;
-      font-family: 'Lato', sans-serif;
-      font-weight: 400;
-      font-size: 0.7rem; }
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem; }
     .main__ultimasNoticias .main__ultimasNoticias__cards .main__ultimasNoticias__cards__body .card-footer {
-      background-color: #dddceb4f; }
+      background-color: #9390be4f; }
 
 /* Mobile muy chicos */
 @media (max-width: 575px) {
@@ -538,7 +546,7 @@ h1 {
     font-size: 2rem;
     padding: 10px; }
   .main__instalaciones .main__instalaciones__background .main__instalaciones__parrafo {
-    background-color: #f381f3;
+    background-color: #eba1eb;
     color: #ffffff;
     font-family: 'Lato', sans-serif;
     font-size: 0.9rem;
@@ -586,8 +594,8 @@ h1 {
     width: 400px; } }
 
 .main__contacto .hero .main__contacto__hero__parrafo {
-  color: #ffffff;
-  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-family: "Lato", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   width: 320px;
@@ -610,14 +618,14 @@ h1 {
     height: 350px; }
 
 .main__contacto .form-label {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
-  color: #2ad6c8; }
+  color: #4DD0C3; }
 
 .main__contacto .btn {
-  background-color: #2ad6c8;
-  color: #fff; }
+  background-color: #4DD0C3;
+  color: #FFFFFF; }
 
 /* Mobile muy chicos */
 @media (max-width: 575px) {

@@ -1,17 +1,17 @@
 h1{
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 500;
-    color: #ffffff;  
+    font-family: $fuente-titulos;
+    font-weight: $font-weight-medium;
+    color: $color-blanco;  
 }
 
 .hero{
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-image: $background-gradient;
     width: 100%;
     height: 600px;
     .container{
         .hero__titulo{
-            font-size: 2.9rem;
-            font-weight: 400;
+            font-size: $fuente-grande;
+            font-weight: $font-weight-regular;
                     } 
             }    
 }
@@ -24,62 +24,62 @@ h1{
 
 
 #boxAzul{
-    background: rgba(0, 68, 146, 0.377);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: $color-boxAzul;
+    box-shadow: 0 8px 32px 0 $color-shadow;
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
-    border-radius: 1px;
-    border: 0px solid rgb(255, 255, 255);
+    border-radius: $borde-radio-chico;
+    border: 0px solid $color-blanco;
     z-index: 4;
 }
 
 #boxCeleste{
-    background: rgba(0, 118, 253, 0.377);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: $color-boxCeleste;
+    box-shadow: 0 8px 32px 0 $color-shadow;
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
-    border-radius: 1px;
-    border: 0px solid rgb(255, 255, 255);
+    border-radius: $borde-radio-chico;
+    border: 0px solid $color-blanco;
     z-index: 4;
 }
 
 #boxVerde01{
-    background: rgba(26, 192, 82, 0.377);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: $color-boxVerde01;
+    box-shadow: 0 8px 32px 0 $color-shadow;
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
-    border-radius: 1px;
-    border: 0px solid rgb(255, 255, 255);
+    border-radius: $borde-radio-chico;
+    border: 0px solid $color-blanco;
     z-index: 4;
 }
 
 #boxMarron{
-    background: rgba(212, 136, 35, 0.377);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: $color-boxMarron;
+    box-shadow: 0 8px 32px 0 $color-shadow;
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
-    border-radius: 1px;
-    border: 0px solid rgb(255, 255, 255);
+    border-radius: $borde-radio-chico;
+    border: 0px solid $color-blanco;
     z-index: 4;
 }
 
 #boxVerde02{
-    background: rgba(42, 214, 200, 0.377);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: $color-boxVerde02;
+    box-shadow: 0 8px 32px 0 $color-shadow;
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
-    border-radius: 1px;
-    border: 0px solid rgb(255, 255, 255);
+    border-radius: $borde-radio-chico;
+    border: 0px solid $color-blanco;
     z-index: 4;
 }
 
 #boxRosa{
-    background: rgba(180, 79, 121, 0.377);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: $color-boxRosa;
+    box-shadow: 0 8px 32px 0 $color-shadow;
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
-    border-radius: 1px;
-    border: 0px solid rgb(255, 255, 255);
+    border-radius: $borde-radio-chico;
+    border: 0px solid $color-blanco;
     z-index: 4;
 }
 

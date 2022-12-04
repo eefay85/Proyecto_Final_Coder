@@ -2,10 +2,10 @@
 .main__contacto{
     .hero{
         .main__contacto__hero__parrafo{
-            color: #ffffff;
-            font-family: 'Lato', sans-serif;
-            font-size: 0.9rem;
-            font-weight: 400;
+            color: $color-blanco;
+            font-family: $fuente-subtitulos-textos;
+            font-size: $fuente-pequena;
+            font-weight: $font-weight-regular;
             width: 320px;
             height: auto;
         } 
@@ -28,14 +28,14 @@
         }
     }
     .form-label{
-        font-family: 'Lato', sans-serif;
-        font-weight: 700;
-        font-size: 0.9rem;
-        color: rgb(42, 214, 200);
+        font-family: $fuente-subtitulos-textos;
+        font-weight: $font-weight-Bold;
+        font-size: $fuente-pequena;
+        color: $color-verde02;
     }
     .btn{
-        background-color: rgb(42, 214, 200);
-        color: #fff;
+        background-color: $color-verde02;
+        color:$color-blanco;
     }
 }
 
