@@ -3,7 +3,7 @@
 /*Colores*/
 /*Fonts*/
 /*Tamaño de texto*/
-/*Tamaño de weight*/
+/*Font weight*/
 /*Backgrounds*/
 /*Bordes*/
 * {
@@ -46,7 +46,7 @@ h1 {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-radius: 1px;
+  border-radius: 1px solid;
   border: 0px solid #FFFFFF;
   z-index: 4; }
 
@@ -55,7 +55,7 @@ h1 {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-radius: 1px;
+  border-radius: 1px solid;
   border: 0px solid #FFFFFF;
   z-index: 4; }
 
@@ -64,7 +64,7 @@ h1 {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-radius: 1px;
+  border-radius: 1px solid;
   border: 0px solid #FFFFFF;
   z-index: 4; }
 
@@ -73,7 +73,7 @@ h1 {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-radius: 1px;
+  border-radius: 1px solid;
   border: 0px solid #FFFFFF;
   z-index: 4; }
 
@@ -82,7 +82,7 @@ h1 {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-radius: 1px;
+  border-radius: 1px solid;
   border: 0px solid #FFFFFF;
   z-index: 4; }
 
@@ -91,7 +91,7 @@ h1 {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-radius: 1px;
+  border-radius: 1px solid;
   border: 0px solid #FFFFFF;
   z-index: 4; }
 
@@ -166,7 +166,7 @@ h1 {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-radius: 1px;
+  border-radius: 1px solid;
   border: 0px solid #FFFFFF;
   z-index: 4; }
 
@@ -175,7 +175,7 @@ h1 {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-radius: 1px;
+  border-radius: 1px solid;
   border: 0px solid #FFFFFF;
   z-index: 4; }
 
@@ -184,7 +184,7 @@ h1 {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-radius: 1px;
+  border-radius: 1px solid;
   border: 0px solid #FFFFFF;
   z-index: 4; }
 
@@ -193,7 +193,7 @@ h1 {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-radius: 1px;
+  border-radius: 1px solid;
   border: 0px solid #FFFFFF;
   z-index: 4; }
 
@@ -202,7 +202,7 @@ h1 {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-radius: 1px;
+  border-radius: 1px solid;
   border: 0px solid #FFFFFF;
   z-index: 4; }
 
@@ -211,7 +211,7 @@ h1 {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-radius: 1px;
+  border-radius: 1px solid;
   border: 0px solid #FFFFFF;
   z-index: 4; }
 
@@ -225,16 +225,15 @@ h1 {
   z-index: 5; }
 
 .main__inicio .hero .container .main__inicio__hero__subtitulo {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   font-weight: 500;
   font-size: 1.3rem; }
 
 .main__inicio .hero .container .main__inicio__hero__parrafo {
-  color: #ffffff;
-  font-family: 'Lato', sans-serif;
-  font-size: 0.9rem;
+  color: #FFFFFF;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   width: 510px; }
 
 .main__inicio .hero .main__inicio__hero__clouds {
@@ -255,13 +254,13 @@ h1 {
   background-size: cover; }
   .main__inicio .main__servicios .main__servicios__titulo {
     color: #0077DF;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2.9rem;
     z-index: 100; }
   .main__inicio .main__servicios .main__servicios__info {
     color: #505D68;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 0.9rem;
     font-weight: 400;
     margin: 20px;
@@ -270,23 +269,23 @@ h1 {
     width: 355px;
     height: auto; }
     .main__inicio .main__servicios .container .main__servicios__card .card-title {
-      color: white;
-      font-family: 'Barlow Condensed', sans-serif;
+      color: #FFFFFF;
+      font-family: "Barlow Condensed", sans-serif;
       font-weight: 500;
       font-size: 1.5rem; }
     .main__inicio .main__servicios .container .main__servicios__card .card-text {
-      color: white;
-      font-family: 'Lato', sans-serif;
+      color: #FFFFFF;
+      font-family: "Lato", sans-serif;
       font-weight: 400;
       font-size: 0.9rem; }
 
 .main__inicio .main__obrasSociales {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%234dd0c3' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
   .main__inicio .main__obrasSociales .container .main__obrasSociales__titulo {
-    color: #2ad6c8;
-    font-family: 'Barlow Condensed', sans-serif;
+    color: #4DD0C3;
+    font-family: "Barlow Condensed", sans-serif;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2.9rem;
     text-align: left;
     padding: 5px; }
 
@@ -390,7 +389,7 @@ h1 {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 0.8rem;
-    color: #0077DF; }
+    color: #eba1eb; }
   .main__equipo .main__equipo__prof .container .member-info p {
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -517,8 +516,8 @@ h1 {
     bottom: -119px; } }
 
 .main__instalaciones .hero .main__instalaciones__hero__parrafo {
-  color: #ffffff;
-  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-family: "Lato", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   width: 420px;
@@ -534,32 +533,32 @@ h1 {
   bottom: -117px; }
 
 .main__instalaciones .main__instalaciones__background {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%234dd0c3' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E"); }
   .main__instalaciones .main__instalaciones__background .main__instalaciones__box {
     width: 100%;
     height: auto; }
   .main__instalaciones .main__instalaciones__background .main__instalaciones__titulo {
-    color: #ffffff;
-    font-family: 'Barlow Condensed', sans-serif;
+    color: #FFFFFF;
+    font-family: "Barlow Condensed", sans-serif;
     font-weight: 500;
     font-size: 2rem;
     padding: 10px; }
   .main__instalaciones .main__instalaciones__background .main__instalaciones__parrafo {
     background-color: #eba1eb;
-    color: #ffffff;
-    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
     font-size: 0.9rem;
     font-weight: 400;
     width: 400px;
     padding: 10px; }
   .main__instalaciones .main__instalaciones__background .main__instalaciones__img {
-    border: 8px solid white;
-    box-shadow: 0 8px 16px 0 rgba(53, 53, 53, 0.37); }
+    border: 8px solid #FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(55, 55, 63, 0.08); }
 
 #main__instalaciones__titulo__juegos {
-  background-color: #ffffff;
-  color: #2ad6c8;
+  background-color: #FFFFFF;
+  color: #4DD0C3;
   width: 185px;
   height: auto; }
 

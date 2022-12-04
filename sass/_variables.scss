@@ -1,16 +1,17 @@
 /*Colores*/
+$color-header: #2b948b83;
+$color-blanco: #FFFFFF;
+$color-negro: #505D68;
+$color-card-footer: #9390be4f;
+$color-texto-secundario: rgba(55, 55, 63, 0.4);
+$color-caja-primario: #eba1eb;
+
 $color-verde01: #AFE26C;
 $color-verde02: #4DD0C3;
 $color-azul: #3952AA;
 $color-celeste: #0077DF;
 $color-marron: #FBA86B;
 $color-rosa: #F1AAB5;
-$color-blanco: #FFFFFF;
-$color-negro: #505D68;
-$color-texto-secundario: rgba(55, 55, 63, 0.4);
-$color-caja-primario: #eba1eb;
-$color-header: #2b948b83;
-$color-card-footer: #9390be4f;
 
 $color-boxAzul: rgba(0, 68, 146, 0.377);
 $color-boxCeleste: rgba(0, 118, 253, 0.377);
@@ -32,9 +33,10 @@ $fuente-muy-pequena: 0.8rem;
 $fuente-pequena: 0.9rem;
 $fuente-normal: 1.3rem;
 $fuente-intermedia: 1.5rem;
+$fuente-semi-grande: 2rem;
 $fuente-grande: 2.9rem;
 
-/*Tamaño de weight*/
+/*Font weight*/
 $font-weight-regular: 400;
 $font-weight-medium: 500;
 $font-weight-Bold: 700;
@@ -44,7 +46,7 @@ $font-weight-Bold: 700;
 /*Backgrounds*/
 $background-gradient: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 $background-cruz: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%234dd0c3' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-$background-rayas-diagonal: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%234dd0c3' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+$background-rayas-diagonal: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%234dd0c3' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
 $background-onda: url(../assets/team-shape.svg);
 $background-iconos01: url("../assets/logos/Servicios/Vectores.svg");
 $background-iconos02: url("../assets/Testeo\ fondo.svg");
@@ -52,6 +54,7 @@ $background-iconos02: url("../assets/Testeo\ fondo.svg");
 
 
 /*Bordes*/
-$borde-radio-chico: 1px;
-$borde-radio-medio: 3px;
-$borde-radio-grande: 5px;
+$borde-radio-chico: 1px solid;
+$borde-radio-medio: 3px solid;
+$borde-radio-grande: 5px solid;
+$borde-radio-muy-grande: 8px solid;

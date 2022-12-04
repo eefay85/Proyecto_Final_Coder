@@ -2,10 +2,10 @@
 .main__instalaciones{
     .hero{
         .main__instalaciones__hero__parrafo{
-            color: #ffffff;
-            font-family: 'Lato', sans-serif;
-            font-size: 0.9rem;
-            font-weight: 400;
+            color: $color-blanco;
+            font-family: $fuente-subtitulos-textos;
+            font-size: $fuente-pequena;
+            font-weight: $font-weight-regular;
             width: 420px;
             height: auto;
             }
@@ -20,38 +20,38 @@
             }
         }
     .main__instalaciones__background{
-        background-color: #ffffff;
-        background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%234dd0c3' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+        background-color: $color-blanco;
+        background-image: $background-rayas-diagonal;
         .main__instalaciones__box{
             width: 100%;
             height: auto;
         }
         .main__instalaciones__titulo{
-            color: #ffffff;
-            font-family: 'Barlow Condensed', sans-serif;
-            font-weight: 500;
-            font-size: 2rem;
+            color: $color-blanco;
+            font-family: $fuente-titulos;
+            font-weight: $font-weight-medium;
+            font-size: $fuente-semi-grande;
             padding: 10px;
             }
         .main__instalaciones__parrafo{
             background-color: $color-caja-primario;
-            color: #ffffff;
-            font-family: 'Lato', sans-serif;
-            font-size: 0.9rem;
-            font-weight: 400;
+            color: $color-blanco;
+            font-family: $fuente-subtitulos-textos;
+            font-size: $fuente-pequena;
+            font-weight: $font-weight-regular;
             width: 400px;
             padding: 10px;
             }
         .main__instalaciones__img{
-            border: 8px solid rgb(255, 255, 255);
-            box-shadow: 0 8px 16px 0 rgba(53, 53, 53, 0.37);
+            border: $borde-radio-muy-grande $color-blanco;
+            box-shadow: 0 8px 16px 0 $color-shadow2;
             }    
         }
     }    
 
     #main__instalaciones__titulo__juegos{
-        background-color: #ffffff;
-        color: rgb(42, 214, 200);
+        background-color: $color-blanco;
+        color: $color-verde02;
         width: 185px;
         height: auto;
     }
