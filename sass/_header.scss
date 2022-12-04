@@ -2,14 +2,14 @@ header{
     width: 100%;
     height: 100%;
         nav{
-            background-color: #2b948b83;
+            background-color: $color-header;
             li{
                 a{
-                color: rgb(255, 255, 255);
+                color: $color-blanco;
                 margin: 5px;
-                font-family: 'Lato', sans-serif;
-                font-weight: 400;
-                font-size: 0.8rem;
+                font-family: $fuente-subtitulos-textos;
+                font-weight: $font-weight-regular;
+                font-size: $fuente-pequena;
                     .nav-link {
                         border: 0px solid transparent;
                     }                           
