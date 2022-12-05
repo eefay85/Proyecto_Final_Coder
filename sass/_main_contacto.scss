@@ -2,22 +2,13 @@
 .main__contacto{
     .hero{
         .main__contacto__hero__parrafo{
-            color: $color-blanco;
-            font-family: $fuente-subtitulos-textos;
-            font-size: $fuente-pequena;
-            font-weight: $font-weight-regular;
+            @include hero_parrafo;
             width: 320px;
-            height: auto;
+
         } 
     }
     .main__contacto__hero__clouds {
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-        position: relative;
-        bottom: -200px;
+        @include hero_clouds;
     }
     .main__info__map{
         width: 100%;

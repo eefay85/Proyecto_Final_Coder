@@ -8,17 +8,11 @@ footer{
                 font-size: $fuente-normal;
             }
             .footer__parrafo{
-                color: $color-blanco;
+                @include texto_subtitulo;
                 width: auto;
-                font-family: $fuente-subtitulos-textos;
-                font-weight: $font-weight-medium;
-                font-size: $fuente-muy-pequena;
             }
             .footer__texto_derecho{
-                color: $color-blanco;
-                font-family: $fuente-subtitulos-textos;
-                font-weight: $font-weight-medium;
-                font-size: $fuente-muy-pequena;
+                @include texto_subtitulo;
             }
         }
     }
@@ -31,9 +25,7 @@ footer{
                 }
     
             .footer__copyright{
-                font-family: $fuente-subtitulos-textos;
-                font-weight: $font-weight-medium;
-                font-size: $fuente-muy-pequena;   
+                @include texto_subtitulo;
                 }
             .navbar-toggler {
                 border: 0px solid transparent;

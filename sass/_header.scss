@@ -5,11 +5,8 @@ header{
             background-color: $color-header;
             li{
                 a{
-                color: $color-blanco;
-                margin: 5px;
-                font-family: $fuente-subtitulos-textos;
-                font-weight: $font-weight-regular;
-                font-size: $fuente-pequena;
+                @include texto_subtitulo;
+                margin: 5px; 
                     .nav-link {
                         border: 0px solid transparent;
                     }                           

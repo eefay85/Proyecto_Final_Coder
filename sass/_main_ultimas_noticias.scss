@@ -2,21 +2,11 @@
 .main__ultimasNoticias{
     .hero{
         .main__ultimasNoticias__hero__parrafo{
-            color: $color-blanco;
-            font-family: $fuente-subtitulos-textos;
-            font-size: $fuente-pequena;
-            font-weight: $font-weight-regular;
+            @include hero_parrafo;
             width: 400px;
-            height: auto;
         }
         .main__ultimasNoticias__hero__clouds {
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 100%;
-            height: auto;
-            overflow: hidden;
-            position: relative;
-            bottom: -200px;
+            @include hero_clouds;
         }
     }
     .main__ultimasNoticias__cards{
@@ -25,24 +15,18 @@
                 width: 360px;
                 height: auto;
                     .main__ultimasNoticias__cards__titulo{
-                        color: $color-blanco;
-                        font-family: $fuente-titulos;
-                        font-weight: $font-weight-medium;
+                        @include titulo_grande;
                         font-size: $fuente-intermedia;
                         }
                     .main__ultimasNoticias__cards__parrfo{
+                        @include hero_parrafo;
                         color: $color-negro;
                         width: auto;
-                        font-family: $fuente-subtitulos-textos;
-                        font-weight: $font-weight-regular;
-                        font-size: $fuente-pequena;
                         }    
                     .main__ultimasNoticias__cards__fecha{
-                        color: $color-blanco;
-                        width: auto;
-                        font-family: $fuente-subtitulos-textos;
+                        @include hero_parrafo;
                         font-weight: $font-weight-Bold;
-                        font-size: $fuente-muy-pequena;
+                        width: auto;
                         }
                     .card-footer{
                         background-color: $color-card-footer;

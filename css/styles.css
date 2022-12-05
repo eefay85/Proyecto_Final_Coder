@@ -18,10 +18,10 @@ header {
     background-color: #2b948b83; }
     header nav li a {
       color: #FFFFFF;
-      margin: 5px;
       font-family: "Lato", sans-serif;
-      font-weight: 400;
-      font-size: 0.9rem; }
+      font-weight: 500;
+      font-size: 0.8rem;
+      margin: 5px; }
       header nav li a .nav-link {
         border: 0px solid transparent; }
 
@@ -47,53 +47,52 @@ h1 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px solid;
-  border: 0px solid #FFFFFF;
-  z-index: 4; }
+  border: 0px solid #FFFFFF; }
 
 #boxCeleste {
-  background: rgba(0, 118, 253, 0.377);
+  background: rgba(0, 68, 146, 0.377);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px solid;
   border: 0px solid #FFFFFF;
-  z-index: 4; }
+  background-color: rgba(0, 118, 253, 0.377); }
 
 #boxVerde01 {
-  background: rgba(26, 192, 82, 0.377);
+  background: rgba(0, 68, 146, 0.377);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px solid;
   border: 0px solid #FFFFFF;
-  z-index: 4; }
+  background-color: rgba(26, 192, 82, 0.377); }
 
 #boxMarron {
-  background: rgba(212, 136, 35, 0.377);
+  background: rgba(0, 68, 146, 0.377);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px solid;
   border: 0px solid #FFFFFF;
-  z-index: 4; }
+  background-color: rgba(212, 136, 35, 0.377); }
 
 #boxVerde02 {
-  background: rgba(42, 214, 200, 0.377);
+  background: rgba(0, 68, 146, 0.377);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px solid;
   border: 0px solid #FFFFFF;
-  z-index: 4; }
+  background-color: rgba(42, 214, 200, 0.377); }
 
 #boxRosa {
-  background: rgba(180, 79, 121, 0.377);
+  background: rgba(0, 68, 146, 0.377);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px solid;
   border: 0px solid #FFFFFF;
-  z-index: 4; }
+  background-color: rgba(180, 79, 121, 0.377); }
 
 .quote {
   width: 40px;
@@ -107,10 +106,10 @@ footer .container .row .footer__titulo {
 
 footer .container .row .footer__parrafo {
   color: #FFFFFF;
-  width: auto;
   font-family: "Lato", sans-serif;
   font-weight: 500;
-  font-size: 0.8rem; }
+  font-size: 0.8rem;
+  width: auto; }
 
 footer .container .row .footer__texto_derecho {
   color: #FFFFFF;
@@ -124,6 +123,7 @@ footer .footer__nav {
     width: 75px;
     height: auto; }
   footer .footer__nav .footer__copyright {
+    color: #FFFFFF;
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 0.8rem; }
@@ -167,53 +167,52 @@ h1 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px solid;
-  border: 0px solid #FFFFFF;
-  z-index: 4; }
+  border: 0px solid #FFFFFF; }
 
 #boxCeleste {
-  background: rgba(0, 118, 253, 0.377);
+  background: rgba(0, 68, 146, 0.377);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px solid;
   border: 0px solid #FFFFFF;
-  z-index: 4; }
+  background-color: rgba(0, 118, 253, 0.377); }
 
 #boxVerde01 {
-  background: rgba(26, 192, 82, 0.377);
+  background: rgba(0, 68, 146, 0.377);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px solid;
   border: 0px solid #FFFFFF;
-  z-index: 4; }
+  background-color: rgba(26, 192, 82, 0.377); }
 
 #boxMarron {
-  background: rgba(212, 136, 35, 0.377);
+  background: rgba(0, 68, 146, 0.377);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px solid;
   border: 0px solid #FFFFFF;
-  z-index: 4; }
+  background-color: rgba(212, 136, 35, 0.377); }
 
 #boxVerde02 {
-  background: rgba(42, 214, 200, 0.377);
+  background: rgba(0, 68, 146, 0.377);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px solid;
   border: 0px solid #FFFFFF;
-  z-index: 4; }
+  background-color: rgba(42, 214, 200, 0.377); }
 
 #boxRosa {
-  background: rgba(180, 79, 121, 0.377);
+  background: rgba(0, 68, 146, 0.377);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 1px solid;
   border: 0px solid #FFFFFF;
-  z-index: 4; }
+  background-color: rgba(180, 79, 121, 0.377); }
 
 .quote {
   width: 40px;
@@ -232,8 +231,8 @@ h1 {
 .main__inicio .hero .container .main__inicio__hero__parrafo {
   color: #FFFFFF;
   font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 0.9rem;
+  font-weight: 500;
+  font-size: 0.8rem;
   width: 510px; }
 
 .main__inicio .hero .main__inicio__hero__clouds {
@@ -243,6 +242,7 @@ h1 {
   height: auto;
   overflow: hidden;
   position: relative;
+  bottom: -200px;
   bottom: 69px; }
 
 .main__inicio .main__servicios {
@@ -259,10 +259,13 @@ h1 {
     font-size: 2.9rem;
     z-index: 100; }
   .main__inicio .main__servicios .main__servicios__info {
-    color: #505D68;
+    color: #FFFFFF;
     font-family: "Lato", sans-serif;
     font-size: 0.9rem;
     font-weight: 400;
+    width: 320px;
+    height: auto;
+    color: #505D68;
     margin: 20px;
     width: 450px; }
   .main__inicio .main__servicios .container .main__servicios__card {
@@ -272,6 +275,7 @@ h1 {
       color: #FFFFFF;
       font-family: "Barlow Condensed", sans-serif;
       font-weight: 500;
+      font-size: 2rem;
       font-size: 1.5rem; }
     .main__inicio .main__servicios .container .main__servicios__card .card-text {
       color: #FFFFFF;
@@ -323,8 +327,9 @@ h1 {
   font-family: "Lato", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
-  width: 400px;
-  height: auto; }
+  width: 320px;
+  height: auto;
+  width: 400px; }
 
 .main__equipo .hero .main__equipo__hero__clouds {
   background-repeat: no-repeat;
@@ -417,6 +422,7 @@ h1 {
     color: #FFFFFF;
     font-family: "Lato", sans-serif;
     font-weight: 500;
+    font-size: 0.8rem;
     font-size: 0.9rem; }
 
 /* Mobile muy chicos */
@@ -448,8 +454,9 @@ h1 {
   font-family: "Lato", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
-  width: 400px;
-  height: auto; }
+  width: 320px;
+  height: auto;
+  width: 400px; }
 
 .main__ultimasNoticias .hero .main__ultimasNoticias__hero__clouds {
   background-repeat: no-repeat;
@@ -469,19 +476,26 @@ h1 {
       color: #FFFFFF;
       font-family: "Barlow Condensed", sans-serif;
       font-weight: 500;
+      font-size: 2rem;
       font-size: 1.5rem; }
     .main__ultimasNoticias .main__ultimasNoticias__cards .main__ultimasNoticias__cards__body .main__ultimasNoticias__cards__parrfo {
-      color: #505D68;
-      width: auto;
+      color: #FFFFFF;
       font-family: "Lato", sans-serif;
+      font-size: 0.9rem;
       font-weight: 400;
-      font-size: 0.9rem; }
+      width: 320px;
+      height: auto;
+      color: #505D68;
+      width: auto; }
     .main__ultimasNoticias .main__ultimasNoticias__cards .main__ultimasNoticias__cards__body .main__ultimasNoticias__cards__fecha {
       color: #FFFFFF;
-      width: auto;
       font-family: "Lato", sans-serif;
+      font-size: 0.9rem;
+      font-weight: 400;
+      width: 320px;
+      height: auto;
       font-weight: 700;
-      font-size: 0.8rem; }
+      width: auto; }
     .main__ultimasNoticias .main__ultimasNoticias__cards .main__ultimasNoticias__cards__body .card-footer {
       background-color: #9390be4f; }
 
@@ -520,8 +534,9 @@ h1 {
   font-family: "Lato", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
-  width: 420px;
-  height: auto; }
+  width: 320px;
+  height: auto;
+  width: 420px; }
 
 .main__instalaciones .hero .main__instalaciones__hero__clouds {
   background-repeat: no-repeat;
@@ -530,6 +545,7 @@ h1 {
   height: auto;
   overflow: hidden;
   position: relative;
+  bottom: -200px;
   bottom: -117px; }
 
 .main__instalaciones .main__instalaciones__background {
@@ -545,11 +561,13 @@ h1 {
     font-size: 2rem;
     padding: 10px; }
   .main__instalaciones .main__instalaciones__background .main__instalaciones__parrafo {
-    background-color: #eba1eb;
     color: #FFFFFF;
     font-family: "Lato", sans-serif;
     font-size: 0.9rem;
     font-weight: 400;
+    width: 320px;
+    height: auto;
+    background-color: #eba1eb;
     width: 400px;
     padding: 10px; }
   .main__instalaciones .main__instalaciones__background .main__instalaciones__img {
@@ -598,7 +616,8 @@ h1 {
   font-size: 0.9rem;
   font-weight: 400;
   width: 320px;
-  height: auto; }
+  height: auto;
+  width: 320px; }
 
 .main__contacto .main__contacto__hero__clouds {
   background-repeat: no-repeat;

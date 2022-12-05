@@ -2,20 +2,12 @@
 .main__instalaciones{
     .hero{
         .main__instalaciones__hero__parrafo{
-            color: $color-blanco;
-            font-family: $fuente-subtitulos-textos;
-            font-size: $fuente-pequena;
-            font-weight: $font-weight-regular;
+            @include hero_parrafo;
             width: 420px;
-            height: auto;
+
             }
         .main__instalaciones__hero__clouds {
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 100%;
-            height: auto;
-            overflow: hidden;
-            position: relative;
+            @include hero_clouds;
             bottom: -117px;
             }
         }
@@ -27,18 +19,12 @@
             height: auto;
         }
         .main__instalaciones__titulo{
-            color: $color-blanco;
-            font-family: $fuente-titulos;
-            font-weight: $font-weight-medium;
-            font-size: $fuente-semi-grande;
+            @include titulo_grande;
             padding: 10px;
             }
         .main__instalaciones__parrafo{
+            @include hero_parrafo;
             background-color: $color-caja-primario;
-            color: $color-blanco;
-            font-family: $fuente-subtitulos-textos;
-            font-size: $fuente-pequena;
-            font-weight: $font-weight-regular;
             width: 400px;
             padding: 10px;
             }

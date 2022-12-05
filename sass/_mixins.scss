@@ -1,0 +1,42 @@
+@mixin box_ultimasNoticias{
+    background: $color-boxAzul;
+    box-shadow: 0 8px 32px 0 $color-shadow;
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: $borde-radio-chico;
+    border: 0px solid $color-blanco;
+}
+
+
+@mixin texto_subtitulo{
+    color: $color-blanco;
+    font-family: $fuente-subtitulos-textos;
+    font-weight: $font-weight-medium;
+    font-size: $fuente-muy-pequena;
+}
+
+@mixin titulo_grande{
+    color: $color-blanco;
+    font-family: $fuente-titulos;
+    font-weight: $font-weight-medium;
+    font-size: $fuente-semi-grande;
+}
+
+@mixin hero_parrafo{
+    color: $color-blanco;
+    font-family: $fuente-subtitulos-textos;
+    font-size: $fuente-pequena;
+    font-weight: $font-weight-regular;
+    width: 320px;
+    height: auto;
+}
+
+@mixin hero_clouds{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    bottom: -200px;
+}

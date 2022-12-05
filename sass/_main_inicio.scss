@@ -12,20 +12,12 @@
                 font-size: $fuente-normal;
                 }
             .main__inicio__hero__parrafo{
-                color: $color-blanco;
-                font-family: $fuente-subtitulos-textos;
-                font-weight: $font-weight-regular;
-                font-size: $fuente-pequena;
+                @include texto_subtitulo;
                 width: 510px;
                 }
             }
         .main__inicio__hero__clouds{
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 100%;
-            height: auto;
-            overflow: hidden;
-            position: relative;
+            @include hero_clouds;
             bottom: 69px;
             }  
         }
@@ -44,10 +36,8 @@
                     z-index: 100;
                 }
                 .main__servicios__info{
+                    @include hero_parrafo;
                     color: $color-negro;
-                    font-family: $fuente-subtitulos-textos;
-                    font-size: $fuente-pequena;
-                    font-weight: $font-weight-regular;
                     margin: 20px;
                     width: 450px;
                 }
@@ -56,9 +46,7 @@
                     width: 355px;
                     height: auto;
                         .card-title{
-                            color:$color-blanco;
-                            font-family: $fuente-titulos;
-                            font-weight: $font-weight-medium;
+                            @include titulo_grande;
                             font-size: $fuente-intermedia;
                             }
                         .card-text{

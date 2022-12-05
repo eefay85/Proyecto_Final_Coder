@@ -2,21 +2,11 @@
 .main__equipo{
     .hero{
         .main__equipo__hero__parrafo{
-            color: $color-blanco;
-            font-family: $fuente-subtitulos-textos;
-            font-size: $fuente-pequena;
-            font-weight: $font-weight-regular;
+            @include hero_parrafo;
             width: 400px;
-            height: auto;
             }
         .main__equipo__hero__clouds {
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 100%;
-            height: auto;
-            overflow: hidden;
-            position: relative;
-            bottom: -200px;
+            @include hero_clouds;
             }
         }
     
@@ -112,9 +102,7 @@
                     padding: 0px;
                 }
                 .main__equipo_testimonios_texto{
-                    color: $color-blanco;
-                    font-family: $fuente-subtitulos-textos;
-                    font-weight: $font-weight-medium;
+                    @include texto_subtitulo;
                     font-size: $fuente-pequena
                 }
             }

@@ -24,63 +24,32 @@ h1{
 
 
 #boxAzul{
-    background: $color-boxAzul;
-    box-shadow: 0 8px 32px 0 $color-shadow;
-    backdrop-filter: blur( 8px );
-    -webkit-backdrop-filter: blur( 8px );
-    border-radius: $borde-radio-chico;
-    border: 0px solid $color-blanco;
-    z-index: 4;
+    @include box_ultimasNoticias;
 }
 
 #boxCeleste{
-    background: $color-boxCeleste;
-    box-shadow: 0 8px 32px 0 $color-shadow;
-    backdrop-filter: blur( 8px );
-    -webkit-backdrop-filter: blur( 8px );
-    border-radius: $borde-radio-chico;
-    border: 0px solid $color-blanco;
-    z-index: 4;
+    @include box_ultimasNoticias;
+    background-color: $color-boxCeleste;
 }
 
 #boxVerde01{
-    background: $color-boxVerde01;
-    box-shadow: 0 8px 32px 0 $color-shadow;
-    backdrop-filter: blur( 8px );
-    -webkit-backdrop-filter: blur( 8px );
-    border-radius: $borde-radio-chico;
-    border: 0px solid $color-blanco;
-    z-index: 4;
+    @include box_ultimasNoticias;
+    background-color: $color-boxVerde01;
 }
 
 #boxMarron{
-    background: $color-boxMarron;
-    box-shadow: 0 8px 32px 0 $color-shadow;
-    backdrop-filter: blur( 8px );
-    -webkit-backdrop-filter: blur( 8px );
-    border-radius: $borde-radio-chico;
-    border: 0px solid $color-blanco;
-    z-index: 4;
+    @include box_ultimasNoticias;
+    background-color: $color-boxMarron;
 }
 
 #boxVerde02{
-    background: $color-boxVerde02;
-    box-shadow: 0 8px 32px 0 $color-shadow;
-    backdrop-filter: blur( 8px );
-    -webkit-backdrop-filter: blur( 8px );
-    border-radius: $borde-radio-chico;
-    border: 0px solid $color-blanco;
-    z-index: 4;
+    @include box_ultimasNoticias;
+    background-color: $color-boxVerde02;
 }
 
 #boxRosa{
-    background: $color-boxRosa;
-    box-shadow: 0 8px 32px 0 $color-shadow;
-    backdrop-filter: blur( 8px );
-    -webkit-backdrop-filter: blur( 8px );
-    border-radius: $borde-radio-chico;
-    border: 0px solid $color-blanco;
-    z-index: 4;
+    @include box_ultimasNoticias;
+    background-color: $color-boxRosa;
 }
 
 .quote{
