@@ -32,6 +32,7 @@
 }
 
 @mixin hero_clouds{
+    filter: drop-shadow(15px -10px 6px #00000031);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

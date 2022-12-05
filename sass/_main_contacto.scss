@@ -1,33 +1,37 @@
 
 .main__contacto{
     .hero{
+        z-index: 2;
         .main__contacto__hero__parrafo{
             @include hero_parrafo;
             width: 320px;
-
         } 
-    }
-    .main__contacto__hero__clouds {
-        @include hero_clouds;
-    }
-    .main__info__map{
-        width: 100%;
-        height: auto;
-        .main__info__map__iframe{
-            width: 100%;
-            height: 350px;
+        .main__contacto__hero__clouds {
+            @include hero_clouds;
         }
-    }
-    .form-label{
-        font-family: $fuente-subtitulos-textos;
-        font-weight: $font-weight-Bold;
-        font-size: $fuente-pequena;
-        color: $color-verde02;
-    }
-    .btn{
-        background-color: $color-verde02;
-        color:$color-blanco;
-    }
+    }    
+        .main_contacto_formulario{
+            background-image: $background-cruz;   
+                .main__info__map{
+                    width: 100%;
+                    height: auto;
+                        .main__info__map__iframe{
+                            width: 100%;
+                            height: 350px;
+                            }
+                }
+                .form-label{
+                    background-color: $color-blanco;
+                    font-family: $fuente-subtitulos-textos;
+                    font-weight: $font-weight-Bold;
+                    font-size: $fuente-pequena;
+                    color: $color-verde02;
+                }
+        }
+        .btn{
+            background-color: $color-verde02;
+            color:$color-blanco;
+        }
 }
 
 

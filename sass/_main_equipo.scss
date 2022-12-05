@@ -10,8 +10,9 @@
             }
         }
     
-        .main__equipo__prof{
+        .main__equipo__prof{ 
             .container{
+                background-image: $background-rayas-diagonal;
                 .team-member{
                     /*overflow: hidden;*/
                     text-align: center;
