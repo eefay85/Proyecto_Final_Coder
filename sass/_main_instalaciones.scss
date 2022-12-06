@@ -4,7 +4,6 @@
         .main__instalaciones__hero__parrafo{
             @include hero_parrafo;
             width: 420px;
-
             }
         .main__instalaciones__hero__clouds {
             @include hero_clouds;
@@ -30,7 +29,11 @@
             }
         .main__instalaciones__img{
             border: $borde-radio-muy-grande $color-blanco;
-            box-shadow: 0 8px 16px 0 $color-shadow2;
+            filter: drop-shadow(5px 5px 4px #00000031);
+            transform:rotate(01deg);
+            -ms-transform:rotate(01deg);
+            -moz-transform:rotate(01deg);
+            -webkit-transform:rotate(01deg);
             }    
         }
     }    

@@ -296,6 +296,8 @@ h1 {
     font-size: 2.9rem;
     text-align: left;
     padding: 5px; }
+  .main__inicio .main__obrasSociales .main__obrasSociales__logos {
+    filter: drop-shadow(1px 2px 1px rgba(0, 118, 253, 0.377)); }
 
 /* Mobile muy chicos */
 @media (max-width: 575px) {
@@ -579,7 +581,11 @@ h1 {
     padding: 10px; }
   .main__instalaciones .main__instalaciones__background .main__instalaciones__img {
     border: 8px solid #FFFFFF;
-    box-shadow: 0 8px 16px 0 rgba(55, 55, 63, 0.08); }
+    filter: drop-shadow(5px 5px 4px #00000031);
+    transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -webkit-transform: rotate(1deg); }
 
 #main__instalaciones__titulo__juegos {
   background-color: #FFFFFF;
