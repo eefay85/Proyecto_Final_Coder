@@ -31,6 +31,16 @@
     height: auto;
 }
 
+@mixin angulo_texto_error{
+    transform:rotate(04deg);
+    -ms-transform:rotate(04deg);
+    -moz-transform:rotate(04deg);
+    -webkit-transform:rotate(04deg);
+    position: relative;
+    margin-left: 20px;
+    z-index: 4;
+}
+
 @mixin hero_clouds{
     filter: drop-shadow(15px -10px 6px #00000031);
     background-repeat: no-repeat;

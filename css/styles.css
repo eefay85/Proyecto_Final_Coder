@@ -681,3 +681,371 @@ h1 {
 @media (min-width: 992px) and (max-width: 1400px) {
   .main__contacto .hero .main__contacto__hero__clouds {
     bottom: -140px; } }
+
+.main__error .hero {
+  background-image: linear-gradient(to right top, #051937fd, #004d7ab9, #00879381, #00bf73b7, #a6eb12c5), url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%234dd0c3' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E"), url("../assets/Testeo fondo.svg");
+  width: 100%;
+  height: auto; }
+  .main__error .hero .container .main__error__hero .main__error__hero__subtitulo {
+    color: #e46f80;
+    transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    position: relative;
+    margin-left: 20px;
+    z-index: 4;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 4rem; }
+  .main__error .hero .container .main__error__hero .main__error__hero__parrafo1 {
+    color: #FFFFFF;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    position: relative;
+    margin-left: 20px;
+    z-index: 4;
+    color: #4DD0C3;
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 190px;
+    margin-top: 0px;
+    margin-left: 35px; }
+  .main__error .hero .container .main__error__hero .main__error__hero__parrafo2 {
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    position: relative;
+    margin-left: 20px;
+    z-index: 4;
+    color: #505D68;
+    font-weight: 400;
+    font-size: 0.8rem;
+    width: 200px;
+    margin-top: -16px;
+    margin-left: 30px; }
+  .main__error .hero .container .main__error__hero__monster {
+    filter: drop-shadow(5px 5px 4px #00000031);
+    width: 400px;
+    height: auto;
+    position: absolute;
+    background-size: contain;
+    bottom: -10px;
+    z-index: 1; }
+  .main__error .hero .main__error__hero__clouds {
+    filter: drop-shadow(15px -10px 6px #00000031);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    bottom: -200px;
+    bottom: -20px;
+    z-index: 2; }
+
+/* Mobile muy chicos */
+@media (max-width: 575px) {
+  .main__error .hero {
+    background-image: linear-gradient(to right top, #051937fd, #004d7ab9, #00879381, #00bf73b7, #a6eb12c5), url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%234dd0c3' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E"), url("../assets/Testeo fondo.svg");
+    width: 100%;
+    height: auto; }
+    .main__error .hero .container .main__error__hero .main__error__hero__subtitulo {
+      color: #e46f80;
+      transform: rotate(4deg);
+      -ms-transform: rotate(4deg);
+      -moz-transform: rotate(4deg);
+      -webkit-transform: rotate(4deg);
+      position: relative;
+      margin-left: 20px;
+      z-index: 4;
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 500;
+      font-size: 4rem; }
+    .main__error .hero .container .main__error__hero .main__error__hero__parrafo1 {
+      color: #FFFFFF;
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 500;
+      font-size: 2rem;
+      transform: rotate(4deg);
+      -ms-transform: rotate(4deg);
+      -moz-transform: rotate(4deg);
+      -webkit-transform: rotate(4deg);
+      position: relative;
+      margin-left: 20px;
+      z-index: 4;
+      color: #4DD0C3;
+      font-weight: 400;
+      font-size: 1.3rem;
+      width: 190px;
+      margin-top: -10px;
+      margin-left: 35px; }
+    .main__error .hero .container .main__error__hero .main__error__hero__parrafo2 {
+      color: #FFFFFF;
+      font-family: "Lato", sans-serif;
+      font-weight: 500;
+      font-size: 0.8rem;
+      transform: rotate(4deg);
+      -ms-transform: rotate(4deg);
+      -moz-transform: rotate(4deg);
+      -webkit-transform: rotate(4deg);
+      position: relative;
+      margin-left: 20px;
+      z-index: 4;
+      color: #505D68;
+      font-weight: 400;
+      font-size: 0.7rem;
+      width: 200px;
+      margin-top: -15px;
+      margin-left: 30px; }
+    .main__error .hero .container .main__error__hero__monster {
+      filter: drop-shadow(5px 5px 4px #00000031);
+      width: 400px;
+      height: auto;
+      position: absolute;
+      background-size: contain;
+      bottom: 0px;
+      z-index: 1; }
+    .main__error .hero .main__error__hero__clouds {
+      filter: drop-shadow(15px -10px 6px #00000031);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      position: relative;
+      bottom: -200px;
+      bottom: -20px;
+      z-index: 2; }
+  /* Mobile chicos*/ }
+
+@media (max-width: 575px) and (min-width: 576px) and (max-width: 767px) {
+  .main__error .hero {
+    background-image: linear-gradient(to right top, #051937fd, #004d7ab9, #00879381, #00bf73b7, #a6eb12c5), url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%234dd0c3' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E"), url("../assets/Testeo fondo.svg");
+    width: 100%;
+    height: auto; }
+    .main__error .hero .container .main__error__hero .main__error__hero__subtitulo {
+      color: #e46f80;
+      transform: rotate(4deg);
+      -ms-transform: rotate(4deg);
+      -moz-transform: rotate(4deg);
+      -webkit-transform: rotate(4deg);
+      position: relative;
+      margin-left: 20px;
+      z-index: 4;
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 500;
+      font-size: 4rem; }
+    .main__error .hero .container .main__error__hero .main__error__hero__parrafo1 {
+      color: #FFFFFF;
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 500;
+      font-size: 2rem;
+      transform: rotate(4deg);
+      -ms-transform: rotate(4deg);
+      -moz-transform: rotate(4deg);
+      -webkit-transform: rotate(4deg);
+      position: relative;
+      margin-left: 20px;
+      z-index: 4;
+      color: #4DD0C3;
+      font-weight: 400;
+      font-size: 1.3rem;
+      width: 190px;
+      margin-top: -10px;
+      margin-left: 35px; }
+    .main__error .hero .container .main__error__hero .main__error__hero__parrafo2 {
+      color: #FFFFFF;
+      font-family: "Lato", sans-serif;
+      font-weight: 500;
+      font-size: 0.8rem;
+      transform: rotate(4deg);
+      -ms-transform: rotate(4deg);
+      -moz-transform: rotate(4deg);
+      -webkit-transform: rotate(4deg);
+      position: relative;
+      margin-left: 20px;
+      z-index: 4;
+      color: #505D68;
+      font-weight: 400;
+      font-size: 0.8rem;
+      width: 200px;
+      margin-top: -15px;
+      margin-left: 30px; }
+    .main__error .hero .container .main__error__hero__monster {
+      filter: drop-shadow(5px 5px 4px #00000031);
+      width: 400px;
+      height: auto;
+      position: absolute;
+      background-size: contain;
+      bottom: 0px;
+      z-index: 1; }
+    .main__error .hero .main__error__hero__clouds {
+      filter: drop-shadow(15px -10px 6px #00000031);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      position: relative;
+      bottom: -200px;
+      bottom: -20px;
+      z-index: 2; }
+  /* Tablets*/ }
+
+@media (max-width: 575px) and (min-width: 576px) and (max-width: 767px) and (min-width: 768px) and (max-width: 991px) {
+  .main__error .hero {
+    background-image: linear-gradient(to right top, #051937fd, #004d7ab9, #00879381, #00bf73b7, #a6eb12c5), url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%234dd0c3' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E"), url("../assets/Testeo fondo.svg");
+    width: 100%;
+    height: auto; }
+    .main__error .hero .container .main__error__hero .main__error__hero__subtitulo {
+      color: #e46f80;
+      transform: rotate(4deg);
+      -ms-transform: rotate(4deg);
+      -moz-transform: rotate(4deg);
+      -webkit-transform: rotate(4deg);
+      position: relative;
+      margin-left: 20px;
+      z-index: 4;
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 500;
+      font-size: 4rem; }
+    .main__error .hero .container .main__error__hero .main__error__hero__parrafo1 {
+      color: #FFFFFF;
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 500;
+      font-size: 2rem;
+      transform: rotate(4deg);
+      -ms-transform: rotate(4deg);
+      -moz-transform: rotate(4deg);
+      -webkit-transform: rotate(4deg);
+      position: relative;
+      margin-left: 20px;
+      z-index: 4;
+      color: #4DD0C3;
+      font-weight: 400;
+      font-size: 1.3rem;
+      width: 190px;
+      margin-top: -10px;
+      margin-left: 35px; }
+    .main__error .hero .container .main__error__hero .main__error__hero__parrafo2 {
+      color: #FFFFFF;
+      font-family: "Lato", sans-serif;
+      font-weight: 500;
+      font-size: 0.8rem;
+      transform: rotate(4deg);
+      -ms-transform: rotate(4deg);
+      -moz-transform: rotate(4deg);
+      -webkit-transform: rotate(4deg);
+      position: relative;
+      margin-left: 20px;
+      z-index: 4;
+      color: #505D68;
+      font-weight: 400;
+      font-size: 0.8rem;
+      width: 200px;
+      margin-top: -15px;
+      margin-left: 30px; }
+    .main__error .hero .container .main__error__hero__monster {
+      filter: drop-shadow(5px 5px 4px #00000031);
+      width: 400px;
+      height: auto;
+      position: absolute;
+      background-size: contain;
+      bottom: 0px;
+      z-index: 1; }
+    .main__error .hero .main__error__hero__clouds {
+      filter: drop-shadow(15px -10px 6px #00000031);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      position: relative;
+      bottom: -200px;
+      bottom: -20px;
+      z-index: 2; }
+  /* Desktop */ }
+
+@media (max-width: 575px) and (min-width: 576px) and (max-width: 767px) and (min-width: 768px) and (max-width: 991px) and (min-width: 992px) and (max-width: 1400px) {
+  .main__error .hero {
+    background-image: linear-gradient(to right top, #051937fd, #004d7ab9, #00879381, #00bf73b7, #a6eb12c5), url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%234dd0c3' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E"), url("../assets/Testeo fondo.svg");
+    width: 100%;
+    height: auto; }
+    .main__error .hero .container .main__error__hero .main__error__hero__subtitulo {
+      color: #e46f80;
+      transform: rotate(4deg);
+      -ms-transform: rotate(4deg);
+      -moz-transform: rotate(4deg);
+      -webkit-transform: rotate(4deg);
+      position: relative;
+      margin-left: 20px;
+      z-index: 4;
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 500;
+      font-size: 4rem; }
+    .main__error .hero .container .main__error__hero .main__error__hero__parrafo1 {
+      color: #FFFFFF;
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 500;
+      font-size: 2rem;
+      transform: rotate(4deg);
+      -ms-transform: rotate(4deg);
+      -moz-transform: rotate(4deg);
+      -webkit-transform: rotate(4deg);
+      position: relative;
+      margin-left: 20px;
+      z-index: 4;
+      color: #4DD0C3;
+      font-weight: 400;
+      font-size: 1.3rem;
+      width: 190px;
+      margin-top: -10px;
+      margin-left: 35px; }
+    .main__error .hero .container .main__error__hero .main__error__hero__parrafo2 {
+      color: #FFFFFF;
+      font-family: "Lato", sans-serif;
+      font-weight: 500;
+      font-size: 0.8rem;
+      transform: rotate(4deg);
+      -ms-transform: rotate(4deg);
+      -moz-transform: rotate(4deg);
+      -webkit-transform: rotate(4deg);
+      position: relative;
+      margin-left: 20px;
+      z-index: 4;
+      color: #505D68;
+      font-weight: 400;
+      font-size: 0.8rem;
+      width: 200px;
+      margin-top: -15px;
+      margin-left: 30px; }
+    .main__error .hero .container .main__error__hero__monster {
+      filter: drop-shadow(5px 5px 4px #00000031);
+      width: 400px;
+      height: auto;
+      position: absolute;
+      background-size: contain;
+      bottom: 0px;
+      z-index: 1; }
+    .main__error .hero .main__error__hero__clouds {
+      filter: drop-shadow(15px -10px 6px #00000031);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      position: relative;
+      bottom: -200px;
+      bottom: -20px;
+      z-index: 2; } }

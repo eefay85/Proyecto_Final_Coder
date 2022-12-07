@@ -75,7 +75,7 @@
 
     <div data-aos="fade-in" data-aos-delay= "300" class="container-fluid row mt-5 mb-5 justify-content-center">
     <div class="col-md-7 col-lg-7">
-        <form class="needs-validation" novalidate>
+        <form class="needs-validation" action="../pages/error.html">
         <div class="row g-3">
             <div class="col-sm-6">
                 <label for="firstName" class="form-label">Nombre</label>
@@ -93,23 +93,20 @@
 
             <div class="col-12">
                 <label for="email" class="form-label">Email <span class="text-muted"></span></label>
-                <input type="email" class="form-control" id="email" placeholder="">
+                <input type="email" class="form-control" id="email" placeholder="" required>
                 <div class="invalid-feedback">
             </div>
 
             <div class="col-12 mt-3 mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Dejanos tus comentarios</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"required></textarea>
+                <div class="invalid-feedback"></div>
             </div>
-
             </div>
-
-            
-
         <hr class="my-4">
-        
-        <button class="w-auto btn btn-lg mb-5" type="submit">Continuar</button>
         </form>
+        <a href=""><button class="w-auto btn btn-lg mb-5" type="submit">Continuar</button></a>
+
     </div>
     </div>
     </div>
@@ -163,7 +160,6 @@
 <script>
 AOS.init();
 </script>
-
 
 
 </body>
