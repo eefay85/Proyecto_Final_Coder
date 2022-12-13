@@ -1,130 +1,145 @@
 .main__error{
     .hero{
         background-image: $background-gradient-error;
-        width: 100%;
-        height: auto;
         .container{
-            .main__error__hero{
+                .main__error__hero__monster{
+                    filter: drop-shadow(5px 5px 4px #00000031);
+                    width: 380px;
+                    height: auto;
+                    position: absolute;
+                    bottom: -35px;
+                    margin-left: 380px;
+                    }
                 .main__error__hero__subtitulo{
                     color: $color-error;
                     @include angulo_texto_error;
                     font-family: $fuente-titulos;
                     font-weight: $font-weight-medium;
                     font-size: $fuente-grande-error;
+                    margin-left: 45px;
                     }
-                    .main__error__hero__parrafo1{
-                        @include titulo_grande;
-                        @include angulo_texto_error;
-                        color: $color-verde02;
-                        font-weight: $font-weight-regular;
-                        font-size: $fuente-normal;
-                        width: 190px;
-                        margin-top: 0px;
-                        margin-left: 35px;
+                .main__error__hero__parrafo1{
+                    @include titulo_grande;
+                    @include angulo_texto_error;
+                    color: $color-verde02;
+                    font-weight: $font-weight-regular;
+                    font-size: $fuente-normal;
+                    width: 180px;
+                    margin-top: -15px;
+                    margin-left: 500px;
+                    }
+                .main__error__hero__parrafo2{
+                    @include texto_subtitulo;
+                    @include angulo_texto_error;
+                    color: $color-negro;
+                    font-weight: $font-weight-regular;
+                    font-size: $fuente-muy-pequena;
+                    width: 200px;
+                    margin-top: -10px;
+                    margin-left: 485px;
                         }
-                    .main__error__hero__parrafo2{
-                        @include texto_subtitulo;
-                        @include angulo_texto_error;
-                        color: $color-negro;
-                        font-weight: $font-weight-regular;
-                        font-size: $fuente-muy-pequena;
-                        width: 200px;
-                        margin-top: -16px;
-                        margin-left: 30px;
-                        }
-                }    
-                .main__error__hero__monster{
-                        filter: drop-shadow(5px 5px 4px #00000031);
-                        width: 400px;
-                        height: auto;
-                        position: absolute;
-                        background-size: contain;
-                        bottom: -10px;
-                        z-index: 1;
-                        }
-                }    
+                    }
         .main__error__hero__clouds{
             @include hero_clouds;
-            bottom: -2px;
+            bottom: 12px;
             z-index: 2;
-            }  
-        }          
+            }                      
+        }           
 }
 
 
-
-/* Mobile muy chicos */
+/* Mobile muy chicos *//*
 @media(max-width: 575px){
     .main__error{
+        width: auto;
+        height: 100%;
         .hero{
+            background-image: $background-gradient-error;
             .container{
                 .main__error__hero{
+                    .main__error__hero__monster{
+                        filter: drop-shadow(5px 5px 4px #00000031);
+                        width: 30   0px;
+                        height: auto;
+                        position: absolute;
+                        background-size: contain;
+                        margin-left: -200px;
+                        bottom: 350px;
+                        z-index: 1;
+                        }
                     .main__error__hero__subtitulo{
+                        color: $color-error;
                         @include angulo_texto_error;
-                        font-size: 3rem;
-                        margin-left: 30px;
+                        font-family: $fuente-titulos;
+                        font-weight: $font-weight-medium;
+                        font-size: $fuente-grande-error;
                         }
                         .main__error__hero__parrafo1{
+                            @include titulo_grande;
                             @include angulo_texto_error;
-                            font-size: 1rem;
+                            color: $color-verde02;
+                            font-weight: $font-weight-regular;
+                            font-size: $fuente-normal;
                             width: 190px;
                             margin-top: 0px;
-                            margin-left: 15px;
+                            margin-left: 35px;
                             }
                         .main__error__hero__parrafo2{
+                            @include texto_subtitulo;
                             @include angulo_texto_error;
-                            font-size: 0.7rem;
-                            width: 160px;
-                            margin-top: -15px;
-                            margin-left: 20px;
-                            }
-                    }    
-                    .main__error__hero__monster{
-                            width: 300px;
-                            bottom: 445px;
+                            color: $color-negro;
+                            font-weight: $font-weight-regular;
+                            font-size: $fuente-muy-pequena;
+                            width: 200px;
+                            margin-top: -16px;
                             margin-left: 30px;
                             }
+                        }    
                     }    
             .main__error__hero__clouds{
-                bottom: 0px;
+                @include hero_clouds;
+                bottom: -2px;
+                z-index: 2;
                 }  
             }          
     }
 
-/* Mobile chicos*/
+/* Mobile chicos*//*
 @media(min-width: 576px) and (max-width: 767px){
     .main__error{
         .hero{
+            width: 100%;
+            height: auto;
             .container{
                 .main__error__hero{
+                    .main__error__hero__monster{
+                        filter: drop-shadow(5px 5px 4px #00000031);
+                        margin-left: -200px;
+                        bottom: -10px;
+                        }
                     .main__error__hero__subtitulo{
                         @include angulo_texto_error;
-                        font-size: 3rem;
-                        margin-left: 30px;
                         }
                         .main__error__hero__parrafo1{
+                            @include titulo_grande;
                             @include angulo_texto_error;
-                            font-size: 1rem;
                             width: 190px;
                             margin-top: 0px;
-                            margin-left: 15px;
+                            margin-left: 35px;
                             }
                         .main__error__hero__parrafo2{
+                            @include texto_subtitulo;
                             @include angulo_texto_error;
-                            font-size: 0.7rem;
-                            width: 160px;
-                            margin-top: -15px;
-                            margin-left: 20px;
-                            }
-                    }    
-                    .main__error__hero__monster{
-                            width: 300px;
-                            bottom: 100px;
+                            width: 200px;
+                            margin-top: -16px;
                             margin-left: 30px;
                             }
+                        }    
                     }    
             .main__error__hero__clouds{
-                bottom: 0px;
+                @include hero_clouds;
+                bottom: -2px;
+                z-index: 2;
                 }  
             }          
     }
@@ -133,31 +148,38 @@
 @media(min-width: 768px) and (max-width: 991px){   
     .main__error{
         .hero{
+            width: 100%;
+            height: auto;
             .container{
                 .main__error__hero{
+                    .main__error__hero__monster{
+                        filter: drop-shadow(5px 5px 4px #00000031);
+                        margin-left: -200px;
+                        bottom: -10px;
+                        }
                     .main__error__hero__subtitulo{
                         @include angulo_texto_error;
                         }
                         .main__error__hero__parrafo1{
+                            @include titulo_grande;
                             @include angulo_texto_error;
                             width: 190px;
-                            margin-top: -10px;
+                            margin-top: 0px;
                             margin-left: 35px;
                             }
                         .main__error__hero__parrafo2{
+                            @include texto_subtitulo;
                             @include angulo_texto_error;
                             width: 200px;
-                            margin-top: -15px;
+                            margin-top: -16px;
                             margin-left: 30px;
                             }
-                    }    
-                    .main__error__hero__monster{
-                            width: 400px;
-                            bottom: 0px;
-                            }
+                        }    
                     }    
             .main__error__hero__clouds{
-                bottom: -20px;
+                @include hero_clouds;
+                bottom: -2px;
+                z-index: 2;
                 }  
             }          
     }
@@ -167,37 +189,43 @@
 @media (min-width: 992px) and (max-width: 1400px){    
     .main__error{
         .hero{
+            width: 100%;
+            height: auto;
             .container{
                 .main__error__hero{
+                    .main__error__hero__monster{
+                        filter: drop-shadow(5px 5px 4px #00000031);
+                        margin-left: -200px;
+                        bottom: -10px;
+                        }
                     .main__error__hero__subtitulo{
                         @include angulo_texto_error;
                         }
                         .main__error__hero__parrafo1{
+                            @include titulo_grande;
                             @include angulo_texto_error;
                             width: 190px;
-                            margin-top: -10px;
+                            margin-top: 0px;
                             margin-left: 35px;
                             }
                         .main__error__hero__parrafo2{
+                            @include texto_subtitulo;
                             @include angulo_texto_error;
                             width: 200px;
-                            margin-top: -15px;
+                            margin-top: -16px;
                             margin-left: 30px;
                             }
-                    }    
-                    .main__error__hero__monster{
-                            width: 400px;
-                            bottom: 0px;
-                            }
+                        }    
                     }    
             .main__error__hero__clouds{
-                bottom: -20px;
+                @include hero_clouds;
+                bottom: -2px;
+                z-index: 2;
                 }  
             }          
-        }
     }
 }
 }
-}
-    
+
+
             
