@@ -1,231 +1,33 @@
 .main__error{
-    .hero{
-        background-image: $background-gradient-error;
+    background-image: $background-gradient-error;
         .container{
                 .main__error__hero__monster{
                     filter: drop-shadow(5px 5px 4px #00000031);
-                    width: 380px;
-                    height: auto;
-                    position: absolute;
-                    bottom: -35px;
-                    margin-left: 380px;
                     }
                 .main__error__hero__subtitulo{
                     color: $color-error;
-                    @include angulo_texto_error;
+                    /*@include angulo_texto_error;*/
                     font-family: $fuente-titulos;
                     font-weight: $font-weight-medium;
                     font-size: $fuente-grande-error;
-                    margin-left: 45px;
                     }
                 .main__error__hero__parrafo1{
+                    background-color: $color-negro;
                     @include titulo_grande;
-                    @include angulo_texto_error;
                     color: $color-verde02;
                     font-weight: $font-weight-regular;
                     font-size: $fuente-normal;
-                    width: 180px;
-                    margin-top: -15px;
-                    margin-left: 500px;
+                    padding: 5px;
+                    width: 230px;
                     }
                 .main__error__hero__parrafo2{
+                    background-color: $color-caja-primario;
                     @include texto_subtitulo;
-                    @include angulo_texto_error;
-                    color: $color-negro;
+                    color: $color-blanco;
                     font-weight: $font-weight-regular;
-                    font-size: $fuente-muy-pequena;
-                    width: 200px;
-                    margin-top: -10px;
-                    margin-left: 485px;
-                        }
+                    font-size: $fuente-pequena;
+                    padding: 10px;
+                    width: 210px;
                     }
-        .main__error__hero__clouds{
-            @include hero_clouds;
-            bottom: 12px;
-            z-index: 2;
-            }                      
+                    }                     
         }           
-}
-
-
-/* Mobile muy chicos *//*
-@media(max-width: 575px){
-    .main__error{
-        width: auto;
-        height: 100%;
-        .hero{
-            background-image: $background-gradient-error;
-            .container{
-                .main__error__hero{
-                    .main__error__hero__monster{
-                        filter: drop-shadow(5px 5px 4px #00000031);
-                        width: 30   0px;
-                        height: auto;
-                        position: absolute;
-                        background-size: contain;
-                        margin-left: -200px;
-                        bottom: 350px;
-                        z-index: 1;
-                        }
-                    .main__error__hero__subtitulo{
-                        color: $color-error;
-                        @include angulo_texto_error;
-                        font-family: $fuente-titulos;
-                        font-weight: $font-weight-medium;
-                        font-size: $fuente-grande-error;
-                        }
-                        .main__error__hero__parrafo1{
-                            @include titulo_grande;
-                            @include angulo_texto_error;
-                            color: $color-verde02;
-                            font-weight: $font-weight-regular;
-                            font-size: $fuente-normal;
-                            width: 190px;
-                            margin-top: 0px;
-                            margin-left: 35px;
-                            }
-                        .main__error__hero__parrafo2{
-                            @include texto_subtitulo;
-                            @include angulo_texto_error;
-                            color: $color-negro;
-                            font-weight: $font-weight-regular;
-                            font-size: $fuente-muy-pequena;
-                            width: 200px;
-                            margin-top: -16px;
-                            margin-left: 30px;
-                            }
-                        }    
-                    }    
-            .main__error__hero__clouds{
-                @include hero_clouds;
-                bottom: -2px;
-                z-index: 2;
-                }  
-            }          
-    }
-
-/* Mobile chicos*//*
-@media(min-width: 576px) and (max-width: 767px){
-    .main__error{
-        .hero{
-            width: 100%;
-            height: auto;
-            .container{
-                .main__error__hero{
-                    .main__error__hero__monster{
-                        filter: drop-shadow(5px 5px 4px #00000031);
-                        margin-left: -200px;
-                        bottom: -10px;
-                        }
-                    .main__error__hero__subtitulo{
-                        @include angulo_texto_error;
-                        }
-                        .main__error__hero__parrafo1{
-                            @include titulo_grande;
-                            @include angulo_texto_error;
-                            width: 190px;
-                            margin-top: 0px;
-                            margin-left: 35px;
-                            }
-                        .main__error__hero__parrafo2{
-                            @include texto_subtitulo;
-                            @include angulo_texto_error;
-                            width: 200px;
-                            margin-top: -16px;
-                            margin-left: 30px;
-                            }
-                        }    
-                    }    
-            .main__error__hero__clouds{
-                @include hero_clouds;
-                bottom: -2px;
-                z-index: 2;
-                }  
-            }          
-    }
-
-/* Tablets*/
-@media(min-width: 768px) and (max-width: 991px){   
-    .main__error{
-        .hero{
-            width: 100%;
-            height: auto;
-            .container{
-                .main__error__hero{
-                    .main__error__hero__monster{
-                        filter: drop-shadow(5px 5px 4px #00000031);
-                        margin-left: -200px;
-                        bottom: -10px;
-                        }
-                    .main__error__hero__subtitulo{
-                        @include angulo_texto_error;
-                        }
-                        .main__error__hero__parrafo1{
-                            @include titulo_grande;
-                            @include angulo_texto_error;
-                            width: 190px;
-                            margin-top: 0px;
-                            margin-left: 35px;
-                            }
-                        .main__error__hero__parrafo2{
-                            @include texto_subtitulo;
-                            @include angulo_texto_error;
-                            width: 200px;
-                            margin-top: -16px;
-                            margin-left: 30px;
-                            }
-                        }    
-                    }    
-            .main__error__hero__clouds{
-                @include hero_clouds;
-                bottom: -2px;
-                z-index: 2;
-                }  
-            }          
-    }
-
-
-/* Desktop */
-@media (min-width: 992px) and (max-width: 1400px){    
-    .main__error{
-        .hero{
-            width: 100%;
-            height: auto;
-            .container{
-                .main__error__hero{
-                    .main__error__hero__monster{
-                        filter: drop-shadow(5px 5px 4px #00000031);
-                        margin-left: -200px;
-                        bottom: -10px;
-                        }
-                    .main__error__hero__subtitulo{
-                        @include angulo_texto_error;
-                        }
-                        .main__error__hero__parrafo1{
-                            @include titulo_grande;
-                            @include angulo_texto_error;
-                            width: 190px;
-                            margin-top: 0px;
-                            margin-left: 35px;
-                            }
-                        .main__error__hero__parrafo2{
-                            @include texto_subtitulo;
-                            @include angulo_texto_error;
-                            width: 200px;
-                            margin-top: -16px;
-                            margin-left: 30px;
-                            }
-                        }    
-                    }    
-            .main__error__hero__clouds{
-                @include hero_clouds;
-                bottom: -2px;
-                z-index: 2;
-                }  
-            }          
-    }
-}
-}
-
-
-            
