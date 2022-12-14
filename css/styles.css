@@ -510,7 +510,7 @@ h1 {
 /* Mobile muy chicos */
 @media (max-width: 575px) {
   .main__ultimasNoticias .hero .main__ultimasNoticias__hero__parrafo {
-    width: 360px; }
+    width: 350px; }
   .main__ultimasNoticias .hero .main__ultimasNoticias__hero__clouds {
     bottom: -150px; }
   .main__ultimasNoticias .main__ultimasNoticias__cards .main__ultimasNoticias__cards__body {
@@ -519,21 +519,21 @@ h1 {
 /* Mobile chicos*/
 @media (min-width: 576px) and (max-width: 767px) {
   .main__ultimasNoticias .hero .main__ultimasNoticias__hero__parrafo {
-    width: 480px; }
+    width: 440px; }
   .main__ultimasNoticias .hero .main__ultimasNoticias__hero__clouds {
     bottom: -150px; } }
 
 /* Tablets*/
 @media (min-width: 768px) and (max-width: 991px) {
   .main__ultimasNoticias .hero .main__ultimasNoticias__hero__parrafo {
-    width: 480px; }
+    width: 440px; }
   .main__ultimasNoticias .hero .main__ultimasNoticias__hero__clouds {
     bottom: -150px; } }
 
 /* Desktop */
 @media (min-width: 992px) and (max-width: 1400px) {
   .main__ultimasNoticias .hero .main__ultimasNoticias__hero__parrafo {
-    width: 480px; }
+    width: 440px; }
   .main__ultimasNoticias .hero .main__ultimasNoticias__hero__clouds {
     bottom: -119px; } }
 
