@@ -32,10 +32,15 @@
             background-repeat: no-repeat;
             background-size: cover;       
                 .main__servicios__titulo{
+                    @include angulo_texto_error;
+                    background-color: $color-boxCeleste;
+                    filter: drop-shadow(5px 5px 2px #00000031);
                     color: $color-celeste;
                     font-family: $fuente-titulos;
                     font-weight: $font-weight-medium;
                     font-size: $fuente-grande;
+                    width: 360px;
+                    padding: 15px;
                     z-index: 100;
                 }
                 .main__servicios__info{
