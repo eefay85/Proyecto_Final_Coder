@@ -697,7 +697,6 @@ h1 {
   .main__error .container .main__error__hero__subtitulo {
     filter: drop-shadow(5px 5px 2px #00000031);
     color: #e46f80;
-    /*@include angulo_texto_error;*/
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 500;
     font-size: 6rem; }
@@ -711,7 +710,7 @@ h1 {
     color: #4DD0C3;
     font-weight: 400;
     font-size: 1.3rem;
-    padding: 5px;
+    padding: 10px;
     width: 230px; }
   .main__error .container .main__error__hero__parrafo2 {
     filter: drop-shadow(5px 5px 2px #00000031);

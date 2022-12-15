@@ -7,7 +7,6 @@
                 .main__error__hero__subtitulo{
                     filter: drop-shadow(5px 5px 2px #00000031);
                     color: $color-error;
-                    /*@include angulo_texto_error;*/
                     font-family: $fuente-titulos;
                     font-weight: $font-weight-medium;
                     font-size: $fuente-grande-error;
@@ -19,7 +18,7 @@
                     color: $color-verde02;
                     font-weight: $font-weight-regular;
                     font-size: $fuente-normal;
-                    padding: 5px;
+                    padding: 10px;
                     width: 230px;
                     }
                 .main__error__hero__parrafo2{
